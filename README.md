@@ -28,30 +28,30 @@
 
 **3- Faixa Salarial**
 
-Moda: 6.001-12.000(1640)
+- Moda: 6.001-12.000(1640)
 
 <img src=https://github.com/user-attachments/assets/e713cfc6-da5b-498c-88a3-cda3b291ebc7 width="600"/>  
 
-menos que 1.000: 0.5%  
-1.001-2.000: 4.2%  
-2.001-6.000: 27.0%  
-6.001-12.000: 32.2%  
-12.001-16.000: 12.5%  
-16.001-20.000: 6.2%  
-mais que 20.001: 17.4%  
+- menos que 1.000: 0.5%  
+- 1.001-2.000: 4.2%  
+- 2.001-6.000: 27.0%  
+- 6.001-12.000: 32.2%  
+- 12.001-16.000: 12.5%  
+- 16.001-20.000: 6.2%  
+- mais que 20.001: 17.4%  
 
 **4- Nível de experiência**
 
-Moda: 1 a 2 anos(1186)
+- Moda: 1 a 2 anos(1186)
 
 <img src=https://github.com/user-attachments/assets/173c4a9c-6b2b-4e36-9715-72018a2aa83b width="600"/>  
 
-menos que 1 ano: 9.0%  
-1 a 2 anos: 22.9%  
-3 a 4 anos: 21.2%  
-4 a 6 anos: 15.5%  
-mais que 6 anos: 18.4%  
-não possui experiência: 13.1%  
+- menos que 1 ano: 9.0%  
+- 1 a 2 anos: 22.9%  
+- 3 a 4 anos: 21.2%  
+- 4 a 6 anos: 15.5%  
+- mais que 6 anos: 18.4%  
+- não possui experiência: 13.1%  
 
 **5- Ciêntista por Estado**
 
