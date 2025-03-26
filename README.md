@@ -125,20 +125,14 @@ Moda: São Paulo(SP)(2072)
 
 **11- Área de Formação**
 
-Moda: Computação/TI/ Engenharia de software(2153)
+- Moda: Computação/TI/ Engenharia de software(2115)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/7df55226-0cfb-41c0-bea9-3fcff29d37c9 width="600"/>  
 
-Computação/TI/ Engenharia de software: 40.7%
-
-Economia: 15.4%
-
-Estatística: 7.1%
-
-Marketing: 2.5%
-
-Ciências Biológicas: 2.3%
-
-Ciências Sociais: 1.6%
-
-outros: 30.4%
+- Computação/TI/ Engenharia de software: 40.9%  
+- Economia: 15.4%  
+- Estatística: 7.1%  
+- Marketing: 2.5%  
+- Ciências Biológicas: 2.2%  
+- Ciências Sociais: 1.5%  
+- outros: 30.3%  
