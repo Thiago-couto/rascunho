@@ -61,21 +61,17 @@ Moda: São Paulo(SP)(2072)
 
 **6- Raça/Etnia/Cor**
 
-Moda: Branca(3414)
+- Moda: Branca(3331)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/5d53a1b2-a41d-481a-8442-32b445b20284 width="600"/>  
 
-Branca: 64.5%
-
-Parda: 24.2%
-
-Amarela: 2.8%
-
-preta: 7.3%
-
-preferiu não informar: 0.6%
-
-outra: 0.3%
+- Branca: 64.4%  
+- Parda: 24.3%  
+- Amarela: 2.8%  
+- preta: 7.3%  
+- preferiu não informar: 0.6%  
+- outra: 0.3%  
+- Indígena: 0.2%  
 
 **7- Ciêntistas por Região**
 
