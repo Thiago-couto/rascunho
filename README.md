@@ -17,7 +17,7 @@ outros: 0.2%
 
 Moda: 25-29(1654)
 
-![image](https://github.com/user-attachments/assets/e54e0435-dbd0-4628-abf3-7c577cbf22f7)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
 
 17-21: 3.4%
 
@@ -41,7 +41,8 @@ mais que 55: 1.4%
 
 Moda: 6.001-12.000(1663)
 
-![image](https://github.com/user-attachments/assets/98c6c4c9-0caf-44c5-993a-439508e01cfe)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+
 menos que 1.000: 0.6%
 
 1.001-2.000: 4.5%
@@ -60,7 +61,8 @@ mais que 20.001: 10.1%
 
 Moda: 4 a 6 anos(1300)
 
-![image](https://github.com/user-attachments/assets/ac8ce524-9839-4d83-99d3-df9c399313ac)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+
 menos que 1 ano: 8.2%
 
 1 a 2 anos: 20.8%
@@ -77,17 +79,14 @@ não possui experiência: 12.1%
 
 Moda: São Paulo(SP)(2072)
 
-![image](https://github.com/user-attachments/assets/d38c9611-6938-429f-9be8-64bb357318c3)
-
-![image](https://github.com/user-attachments/assets/f31e79e1-9725-4526-8b99-c7511fb27595)
-
-![image](https://github.com/user-attachments/assets/da214e89-25be-4d53-97d4-b496e306be1c)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
 
 **6- Raça/Etnia/Cor**
 
 Moda: Branca(3414)
 
-![image](https://github.com/user-attachments/assets/a60d2f95-f7e9-4e64-b209-b502443c9f38)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+
 Branca: 64.5%
 
 Parda: 24.2%
@@ -104,7 +103,8 @@ outra: 0.3%
 
 Moda: Sudeste(3172)
 
-![image](https://github.com/user-attachments/assets/f01648ae-98bb-43b3-a57a-745877ce81f2)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+
 Sudeste: 59.9%
 
 Sul: 18.2%
@@ -121,7 +121,8 @@ Vazio(não identificado): 2.3%
 
 Moda: Graduação/Bacharelado(2476)
 
-![image](https://github.com/user-attachments/assets/1ff7373b-598c-43ad-8458-02c76287bf22)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+
 Graduação/Bacharelado: 46.8%
 
 Pós-Graduação: 34.3%
@@ -138,7 +139,8 @@ outros: 0.1%
 
 Moda: Empregado(CLT)(4159)
 
-![image](https://github.com/user-attachments/assets/0c498987-8761-4c03-8225-d7f4f49229ba)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+
 Empregado(CLT): 78.6%
 
 Desempregado: 7%
@@ -155,7 +157,8 @@ outros: 5.7%
 
 Moda: Analista de dados(em geral)(1858)
 
-![image](https://github.com/user-attachments/assets/ff494eaa-fba2-4706-a4d4-8d507542aa96)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+
 Analista de Dados: 35.8%
 
 Engenheiro de Dados: 14.6%
@@ -172,7 +175,8 @@ outros: 34%
 
 Moda: Computação/TI/ Engenharia de software(2153)
 
-![image](https://github.com/user-attachments/assets/ca57f7f1-46b1-4112-91fe-f055674ae0f5)
+<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+
 Computação/TI/ Engenharia de software: 40.7%
 
 Economia: 15.4%
