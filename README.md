@@ -1,30 +1,30 @@
 # rascunho
 **1- Gênero**
 
-Moda: Masculino(3883)
+- Moda: Masculino(3883)
 
 <img src=https://github.com/user-attachments/assets/41674eef-491e-49f3-894f-d0d98a24aed8 width="600"/>  
 
-Masculino: 75.1%  
-Feminino: 24.5%  
-preferiu não informar: 0.3%  
-outros: 0.1%  
+- Masculino: 75.1%  
+- Feminino: 24.5%  
+- preferiu não informar: 0.3%  
+- outros: 0.1%  
 
 **2- Faixa Etária**
 
-Moda: 25-29(1627)
+- Moda: 25-29(1627)
 
 <img src=https://github.com/user-attachments/assets/b1a4698c-c1e0-4fbc-9ede-555dad8b1f9f width="600"/>  
 
-17-21: 3.4%  
-22-24: 9.4%  
-25-29: 31.5%  
-30-34: 25.9%  
-35-39: 14.8%   
-40-44: 8.0%  
-45-49: 3.5%  
-50-54: 2.1%  
-mais que 55: 1.4%  
+- 17-21: 3.4%  
+- 22-24: 9.4%  
+- 25-29: 31.5%  
+- 30-34: 25.9%  
+- 35-39: 14.8%   
+- 40-44: 8.0%  
+- 45-49: 3.5%  
+- 50-54: 2.1%  
+- mais que 55: 1.4%  
 
 **3- Faixa Salarial**
 
