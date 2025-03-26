@@ -1,17 +1,17 @@
 # rascunho
 **1- Gênero**
 
-Moda: Masculino(3975)
+Moda: Masculino(3883)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=(https://github.com/user-attachments/assets/41674eef-491e-49f3-894f-d0d98a24aed8) width="600"/>
 
 Masculino: 75.1%
 
-Feminino: 24.4%
+Feminino: 24.5%
 
 preferiu não informar: 0.3%
 
-outros: 0.2%
+outros: 0.1%
 
 **2- Faixa Etária**
 
