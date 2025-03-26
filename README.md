@@ -15,23 +15,23 @@ outros: 0.1%
 
 **2- Faixa Etária**
 
-Moda: 25-29(1654)
+Moda: 25-29(1627)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/b1a4698c-c1e0-4fbc-9ede-555dad8b1f9f width="600"/>
 
 17-21: 3.4%
 
-22-24: 9.3%
+22-24: 9.4%
 
-25-29: 31.3%
+25-29: 31.5%
 
-30-34: 26%
+30-34: 25.9%
 
-35-39: 14.9%
+35-39: 14.8%
 
-40-44: 8.1%
+40-44: 8.0%
 
-45-49: 3.6%
+45-49: 3.5%
 
 50-54: 2.1%
 
