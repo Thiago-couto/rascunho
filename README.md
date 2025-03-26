@@ -75,21 +75,15 @@ Moda: São Paulo(SP)(2072)
 
 **7- Ciêntistas por Região**
 
-Moda: Sudeste(3172)
+- Moda: Sudeste(3172)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/9c5fa378-d068-4267-b030-18a647e4adaf width="600"/>   
 
-Sudeste: 59.9%
-
-Sul: 18.2%
-
-Nordeste: 11.5%
-
-Centro-Oeste: 6.5%
-
-Norte: 1.6%
-
-Vazio(não identificado): 2.3%
+- Sudeste: 61.3%  
+- Sul: 18.6%  
+- Nordeste: 11.8%  
+- Centro-Oeste: 6.7%  
+- Norte: 1.7%  
 
 **8- Nível de Ensino**
 
