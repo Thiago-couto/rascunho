@@ -41,7 +41,7 @@ mais que 55: 1.4%
 
 Moda: 6.001-12.000(1640)
 
-<img src=https://github.com/user-attachments/assets/6ed42995-572b-4118-ad74-cd9c7cb35362 width="600"/>
+<img src=https://github.com/user-attachments/assets/e713cfc6-da5b-498c-88a3-cda3b291ebc7 width="600"/>
 
 menos que 1.000: 0.5%
 
