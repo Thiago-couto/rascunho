@@ -99,21 +99,16 @@ Moda: São Paulo(SP)(2072)
 
 **9- Situação Empresarial**
 
-Moda: Empregado(CLT)(4159)
+- Moda: Empregado(CLT)(4134)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/d9927137-4c2e-41e2-a553-c7ad59f6bdf7 width="600"/>  
 
-Empregado(CLT): 78.6%
-
-Desempregado: 7%
-
-Estagiário: 3.9%
-
-Estudante: 2%
-
-Servidor Público: 2.8%
-
-outros: 5.7%
+- Empregado(CLT): 79.9%  
+- Desempregado: 7.0%  
+- Estagiário: 4.0%  
+- Estudante: 1.9%  
+- Servidor Público: 2.8%  
+- outros: 4.4%  
 
 **10- Cargo**
 
