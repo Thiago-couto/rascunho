@@ -157,4 +157,4 @@ Moda: São Paulo(SP)(2073)
 Gráficos com 2 variáveis:   
 - Área de Formação / Faixa Salarial   
 
-<img src= width="600"/>
+<img src=https://github.com/user-attachments/assets/a13c7fe1-9ce7-4293-bf9e-dc35d787d6ed width="600"/>  
