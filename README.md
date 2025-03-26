@@ -71,7 +71,7 @@ Moda: São Paulo(SP)(2072)
 - preta: 7.3%  
 - preferiu não informar: 0.6%  
 - outra: 0.3%  
-- Indígena: 0.2%  
+- Indígena: 0.3%  
 
 **7- Ciêntistas por Região**
 
@@ -87,21 +87,15 @@ Moda: São Paulo(SP)(2072)
 
 **8- Nível de Ensino**
 
-Moda: Graduação/Bacharelado(2476)
+- Moda: Graduação/Bacharelado(2442)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/2802abf5-f8db-4d37-a969-b571b5b13880 width="600"/>  
 
-Graduação/Bacharelado: 46.8%
-
-Pós-Graduação: 34.3%
-
-Mestrado: 12.8%
-
-Doutorado: 4%
-
-sem graduação: 2%
-
-outros: 0.1%
+- Graduação/Bacharelado: 47.2%  
+- Pós-Graduação: 34.5%     
+- Mestrado: 12.3%   
+- Doutorado: 4%  
+- sem graduação: 2%  
 
 **9- Situação Empresarial**
 
