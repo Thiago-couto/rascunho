@@ -3,7 +3,7 @@
 
 Moda: Masculino(3883)
 
-<img src=(https://github.com/user-attachments/assets/41674eef-491e-49f3-894f-d0d98a24aed8) width="600"/>
+<img src=https://github.com/user-attachments/assets/41674eef-491e-49f3-894f-d0d98a24aed8 width="600"/>
 
 Masculino: 75.1%
 
