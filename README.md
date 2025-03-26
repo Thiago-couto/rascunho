@@ -153,3 +153,8 @@ Moda: São Paulo(SP)(2073)
 - Ciências Biológicas: 2.2%  
 - Ciências Sociais: 1.5%  
 - outros: 30.3%  
+
+Gráficos com 2 variáveis:   
+- Área de Formação / Faixa Salarial   
+
+<img src= width="600"/>
