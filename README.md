@@ -112,21 +112,16 @@ Moda: São Paulo(SP)(2072)
 
 **10- Cargo**
 
-Moda: Analista de dados(em geral)(1858)
+- Moda: Analista de dados(em geral)(1829)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/b2dc972a-465f-478e-bae8-c1ac21d3b873 width="600"/>  
 
-Analista de Dados: 35.8%
-
-Engenheiro de Dados: 14.6%
-
-Ciêntista de Dados: 13.2%
-
-Estatístico: 0.4%
-
-Data Product Manager: 1.9%
-
-outros: 34%
+- Analista de Dados: 35.4%  
+- Engenheiro de Dados: 16.9%  
+- Ciêntista de Dados: 13.0%  
+- Estatístico: 0.4%  
+- Data Product Manager: 1.5%  
+- outros: 32.8%  
 
 **11- Área de Formação**
 
