@@ -39,23 +39,23 @@ mais que 55: 1.4%
 
 **3- Faixa Salarial**
 
-Moda: 6.001-12.000(1663)
+Moda: 6.001-12.000(1640)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/6ed42995-572b-4118-ad74-cd9c7cb35362 width="600"/>
 
-menos que 1.000: 0.6%
+menos que 1.000: 0.5%
 
-1.001-2.000: 4.5%
+1.001-2.000: 4.2%
 
-2.001-6.000: 29.1%
+2.001-6.000: 27.0%
 
-6.001-12.000: 35%
+6.001-12.000: 32.2%
 
-12.001-16.000: 13.7%
+12.001-16.000: 12.5%
 
-16.001-20.000: 6.9%
+16.001-20.000: 6.2%
 
-mais que 20.001: 10.1%
+mais que 20.001: 17.4%
 
 **4- Nível de experiência**
 
