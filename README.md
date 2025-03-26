@@ -72,9 +72,9 @@
 
 **5- Ciêntista por Estado**
 
-Moda: São Paulo(SP)(2072)
+Moda: São Paulo(SP)(2073)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/fbf05279-b98e-4beb-8bb3-6792579e70c2 width="600"/> 
 
 **6- Raça/Etnia/Cor**
 
