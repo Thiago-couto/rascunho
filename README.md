@@ -59,21 +59,21 @@ mais que 20.001: 17.4%
 
 **4- Nível de experiência**
 
-Moda: 4 a 6 anos(1300)
+Moda: 1 a 2 anos(1186)
 
-<img src=https://github.com/user-attachments/assets/c39e1b22-d724-44a0-8c61-640407b89423 width="600"/>
+<img src=https://github.com/user-attachments/assets/173c4a9c-6b2b-4e36-9715-72018a2aa83b width="600"/>
 
-menos que 1 ano: 8.2%
+menos que 1 ano: 9.0%
 
-1 a 2 anos: 20.8%
+1 a 2 anos: 22.9%
 
-3 a 4 anos: 19.2%
+3 a 4 anos: 21.2%
 
-4 a 6 anos: 22.5%
+4 a 6 anos: 15.5%
 
-mais que 6 anos: 17.1%
+mais que 6 anos: 18.4%
 
-não possui experiência: 12.1%
+não possui experiência: 13.1%
 
 **5- Ciêntista por Estado**
 
