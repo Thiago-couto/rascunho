@@ -162,4 +162,4 @@ Gráficos com 2 variáveis:
 
 - Faixa Etária / Nível na Empresa    
 
-<img src=https://github.com/user-attachments/assets/a13c7fe1-9ce7-4293-bf9e-dc35d787d6ed width="600"/>                                                        
+<img src=https://github.com/user-attachments/assets/d45c8d24-f6df-4bec-9b80-9c54d59eab95 width="600"/>                                                        
