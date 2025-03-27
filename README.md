@@ -17,6 +17,10 @@
  • Cargo (tipo de cargo assumido)   
  • Área de Formação (em qual curso o usuário se formou)   
 
+**Número de pessoas que responderam (IDs)**
+
+- 5173
+
 **1- Gênero**
 
 - Moda: Masculino(3883)
@@ -48,15 +52,14 @@
 
 - Moda: 6.001-12.000(1640)
 
-<img src=https://github.com/user-attachments/assets/e713cfc6-da5b-498c-88a3-cda3b291ebc7 width="600"/>  
+<img src=https://github.com/user-attachments/assets/5756a64d-768c-4888-a291-3a0f3d1601e7 width="600"/>  
 
-- menos que 1.000: 0.5%  
-- 1.001-2.000: 4.2%  
-- 2.001-6.000: 27.0%  
-- 6.001-12.000: 32.2%  
-- 12.001-16.000: 12.5%  
-- 16.001-20.000: 6.2%  
-- mais que 20.001: 17.4%  
+- 0-2.000: 14.7%  
+- 2.001-6.000: 26.6%  
+- 6.001-12.000: 31.7%  
+- 12.001-16.000: 12.3%  
+- 16.001-20.000: 6.1%  
+- mais que 20.001: 8.5%  
 
 **4- Nível de experiência**
 
@@ -156,10 +159,12 @@ Moda: São Paulo(SP)(2073)
 - outros: 30.3%  
 
 Gráficos com 2 variáveis:   
-- Área de Formação / Faixa Salarial                                                                           llll 
+- Área de Formação / Faixa Salarial   
 
-<img src=https://github.com/user-attachments/assets/a13c7fe1-9ce7-4293-bf9e-dc35d787d6ed width="600"/>       
+<img src=https://github.com/user-attachments/assets/1b401f80-f989-4034-88d3-498519ba16d1 width="600"/>  
 
-- Faixa Etária / Nível na Empresa    
-  
-<img src=https://github.com/user-attachments/assets/d45c8d24-f6df-4bec-9b80-9c54d59eab95 width="600"/>                                                        
+- Idade / Gênero
+<img src="https://github.com/ICEI-PUC-Minas-PPL-CDIA/ppl-cd-pcd-sist-int-2025-1-grupo7-2025-1/blob/main/docs/imagens/AgeGender.png?raw=true" width="600">
+
+- Nível de experiência / Cargo atual
+<img src="https://github.com/ICEI-PUC-Minas-PPL-CDIA/ppl-cd-pcd-sist-int-2025-1-grupo7-2025-1/blob/main/docs/imagens/Graph Experience level by current position.png?raw=true" width="600">
