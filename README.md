@@ -155,6 +155,6 @@ Moda: São Paulo(SP)(2073)
 - outros: 30.3%  
 
 Gráficos com 2 variáveis:   
-- Área de Formação / Faixa Salarial   
+- Área de Formação / Faixa Salarial                                                                                                                            - Faixa Etária / Nível na Empresa    
 
-<img src=https://github.com/user-attachments/assets/a13c7fe1-9ce7-4293-bf9e-dc35d787d6ed width="600"/>  
+<img src=https://github.com/user-attachments/assets/a13c7fe1-9ce7-4293-bf9e-dc35d787d6ed width="600"/>                                                         <img src=https://github.com/user-attachments/assets/a13c7fe1-9ce7-4293-bf9e-dc35d787d6ed width="600"/>     
