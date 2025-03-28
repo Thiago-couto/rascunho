@@ -169,4 +169,8 @@ Gráficos com 2 variáveis:
 <img src="https://github.com/ICEI-PUC-Minas-PPL-CDIA/ppl-cd-pcd-sist-int-2025-1-grupo7-2025-1/blob/main/docs/imagens/Graph Experience level by current position.png?raw=true" width="600">  
 
 - Faixa Etária/Nível na Empresa  
-<img src=https://github.com/user-attachments/assets/63bf0104-6900-413a-baa5-b695642ccf48 width="600">
+<img src=https://github.com/user-attachments/assets/63bf0104-6900-413a-baa5-b695642ccf48 width="600">  
+
+- Nível na Empresa/Salário  
+<img src=https://github.com/user-attachments/assets/9ed6c083-8910-4441-b691-d4679999177f width="600">  
+
