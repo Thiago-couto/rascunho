@@ -172,5 +172,12 @@ Gráficos com 2 variáveis:
 <img src=https://github.com/user-attachments/assets/63bf0104-6900-413a-baa5-b695642ccf48 width="600">  
 
 - Nível na Empresa/Salário  
-<img src=https://github.com/user-attachments/assets/9ed6c083-8910-4441-b691-d4679999177f width="600">  
+<img src=https://github.com/user-attachments/assets/9ed6c083-8910-4441-b691-d4679999177f width="600">   
 
+- Gráfico base auxiliar   
+<img src=https://github.com/user-attachments/assets/367f826b-9864-4c70-84d3-009bea06d31c width="600">    
+
+- SP - 1521433; 1536760; 1538622; 1543013; 1545554; 1589553; 1599656; 1603036; 1618685; (33)    
+- MG - 1600504; (2)    
+- CE - 1127861; 1571410 (4)   
+- PB - 1550460; (3)    
