@@ -175,7 +175,8 @@ Gráficos com 2 variáveis:
 <img src=https://github.com/user-attachments/assets/9ed6c083-8910-4441-b691-d4679999177f width="600">   
 
 - Gráfico base auxiliar   
-<img src=https://github.com/user-attachments/assets/367f826b-9864-4c70-84d3-009bea06d31c width="600">    
+<img src=https://github.com/user-attachments/assets/72cc7e9f-1953-4eab-84f2-6decaebc2ecf width="600">     
+<img src=https://github.com/user-attachments/assets/bc62d7a7-f89e-4380-a4e1-ebe4f21ea217 width="600">      
 
 - SP - 1521433; 1536760; 1538622; 1543013; 1545554; 1589553; 1599656; 1603036; 1618685; (33)    
 - MG - 1600504; (2)    
