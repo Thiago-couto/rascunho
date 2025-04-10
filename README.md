@@ -175,8 +175,9 @@ Gráficos com 2 variáveis:
 <img src=https://github.com/user-attachments/assets/9ed6c083-8910-4441-b691-d4679999177f width="600">   
 
 - **Gráfico base auxiliar**      
-<img src=https://github.com/user-attachments/assets/08a5812f-1697-481a-add7-38c93b236c07 width="600">      
-Curso de Ciência de Dados por Estado
+<img src=https://github.com/user-attachments/assets/08a5812f-1697-481a-add7-38c93b236c07 width="600">     
+ 
+Curso de Ciência de Dados por Estado        
 - SP - 1521433; 1536760; 1538622; 1543013; 1545554; 1589553; 1599656; 1603036; 1618685; (9)    
 - MG - 1600504; (1)    
 - CE - 1127861; 1571410 (2)   
