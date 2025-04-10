@@ -174,7 +174,7 @@ Gráficos com 2 variáveis:
 - Nível na Empresa/Salário  
 <img src=https://github.com/user-attachments/assets/9ed6c083-8910-4441-b691-d4679999177f width="600">   
 
-- Gráfico base auxiliar   
+**- Gráfico base auxiliar**  
 <img src=https://github.com/user-attachments/assets/72cc7e9f-1953-4eab-84f2-6decaebc2ecf width="600">     
 <img src=https://github.com/user-attachments/assets/bc62d7a7-f89e-4380-a4e1-ebe4f21ea217 width="600">      
 
