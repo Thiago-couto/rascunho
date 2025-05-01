@@ -18,7 +18,7 @@ df = pd.read_csv(Filtred_filename, encoding='latin-1')
 print(df.head())
 print(f"Número de respostas carregadas: {len(df)}")
 # Dataset com regiões e atributos demográficos
-[
+dataset_demografico = [
    ['Região', 'Faixa Etária', 'Faixa Salarial'],
     ['Sul', '17-24', '0-2.000'],
     ['Sul', '25-29', '0-2.000'],
