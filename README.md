@@ -181,4 +181,36 @@ Curso de Ciência de Dados por Estado (código)
 - SP - 1521433; 1536760; 1538622; 1543013; 1545554; 1589553; 1599656; 1603036; 1618685; (9)    
 - MG - 1600504; (1)    
 - CE - 1127861; 1571410 (2)   
-- PB - 1550460; (1)    
+- PB - 1550460; (1)      
+
+
+modelo
+
+ 
+
+Justificativa da escolha do modelo:
+
+O método utilizado foi a análise de regras de associação, com o algoritmo Apriori. Essa abordagem é excelente para descobrir padrões frequentes e relações entre atributos em conjuntos de dados, especialmente em contextos de análise de mercado, recomendações ou segmentação de clientes. Como seu objetivo parece ser identificar combinações de atributos demográficos e regiões que ocorrem com frequência, o Apriori é uma escolha adequada.
+
+Processo de amostragem de dados (particionamento e cross-validation):
+
+No código fornecido, não há uma divisão explícita do conjunto de dados em partes de treinamento e teste, como em validação cruzada (cross-validation). Em vez disso, o foco foi na análise de regras de associação, que geralmente trabalha com o conjunto completo de dados para identificar padrões frequentes. Para tarefas preditivas, normalmente usaríamos técnicas como K-fold cross-validation, mas neste caso, a análise de regras é mais exploratória e não requer esse procedimento.
+
+Parâmetros utilizados:
+
+min_support=0.4
+: Considera apenas itemsets que aparecem em pelo menos 40% dos registros. Isso ajuda a filtrar padrões mais relevantes e frequentes.
+min_threshold=0.7
+na geração de regras: Apenas regras com confiança (probabilidade condicional) de pelo pelo menos 70% são consideradas confiáveis.
+Trechos do código comentados:
+
+# Transforma os dados em uma matriz binária, onde cada coluna representa um atributo
+te = TransactionEncoder()
+te_ary = te.fit(dataset).transform(dataset)
+df = pd.DataFrame(te_ary, columns=te.columns_)
+
+# Calcula os itemsets frequentes com suporte mínimo de 40%
+frequent_itemsets = apriori(df, min_support=0.4, use_colnames=True)
+
+# Gera regras de associação com confiança mínima de 70%
+rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)   
