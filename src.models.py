@@ -1,8 +1,10 @@
-# Importando as bibliotecas necessárias
 import pandas as pd
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import apriori, association_rules
+from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
 
+# Carregar os dados
 df = pd.read_excel('Filtred_Data.xlsx')
 print(df.head())
 
@@ -15,53 +17,37 @@ dataset_demografico = [
     ['Sul', 'Baixa Renda', 'Idade Jovem']
 ]
 
-# Converter para DataFrame
-df_demografico = pd.DataFrame(dataset_demografico, columns=['Região', 'Renda', 'Idade', 'Zona'])
+df_demografico = pd.DataFrame(dataset_demografico, columns=['Região', 'Renda', 'Idade'])
 
-# Lista de regiões presentes no seu dataset
-regioes = df_demografico['Região'].unique()
+# Dividir os dados em treino e teste (por exemplo, 70% treino, 30% teste)
+train_df, test_df = train_test_split(df_demografico, test_size=0.3, random_state=42)
 
-# Dicionário para armazenar regras por região
-regras_por_regiao = {}
-
-for regiao in regioes:
-    # Filtra os dados pela região atual
-    df_filtrado = df_demografico[df_demografico['Região'] == regiao]
-    
-    # Prepara os dados para o Apriori
-    dataset = df_filtrado.drop('Região', axis=1).values.tolist()
-    
-    # Transforma em matriz binária
+# Função para processar os dados e gerar regras
+def processar_regras(df_dados):
+    dataset = df_dados.drop('Região', axis=1).values.tolist()
     te = TransactionEncoder()
     te_ary = te.fit(dataset).transform(dataset)
-    df = pd.DataFrame(te_ary, columns=te.columns_)
-    
-    # Calcula os itemsets frequentes
-    frequent_itemsets = apriori(df, min_support=0.4, use_colnames=True)
-    
-    # Gera as regras de associação
-    rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)
-    
-    # Armazena as regras no dicionário
-    regras_por_regiao[regiao] = rules
+    df_transformed = pd.DataFrame(te_ary, columns=te.columns_)
+    frequent_itemsets = apriori(df_transformed, min_support=0.4, use_colnames=True)
+    regras = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)
+    return regras
 
-# Agora, você pode acessar as regras de cada região pelo dicionário
-for regiao, regras in regras_por_regiao.items():
-    print(f"Regras para a região {regiao}:\n", regras)
+# Processar dados de treino
+regras_treino = processar_regras(train_df)
 
-# Preparar os dados para o Apriori
-dataset = df_filtrado.drop('Região', axis=1).values.tolist()
+# Processar dados de teste para validação
+regras_teste = processar_regras(test_df)
 
-# Transformando os dados em uma matriz binária
-te = TransactionEncoder()
-te_ary = te.fit(dataset).transform(dataset)
-df = pd.DataFrame(te_ary, columns=te.columns_)
+# Visualizar as regras (exemplo)
+print("Regras de treino:\n", regras_treino)
+print("Regras de teste:\n", regras_teste)
 
-# Calculando itemsets frequentes com suporte acima de 0.4
-frequent_itemsets = apriori(df, min_support=0.4, use_colnames=True)
+# Resultado, Grafico simples
+fig, ax = plt.subplots(figsize=(10, 6))
+ax.axis('off')
 
-# Gerando regras de associação com confiança mínima de 0.7
-rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)
-
-# Exibindo as regras
-print(rules)
+# Desenhar caixas e setas
+ax.text(0.1, 0.8, 'Carregar Dados', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightblue"))
+ax.text(0.1, 0.6, 'Dividir em Treino/Teste', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightgreen"))
+ax.text(0.1, 0.4, 'Processar Regras\ncom Apriori', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightyellow"))
+ax.text(0.1, 0.2, 'Visualizar Resultados', fontsize=12, bbox
