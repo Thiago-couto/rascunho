@@ -216,3 +216,6 @@ def processar_regras(df_dados):
     `return regras`     
 - **Fluxo de processamento gráfico:**         
 Foi criado um diagrama simples que mostra as etapas do processo, desde o carregamento dos dados até a visualização dos resultados. Essa visualização ajuda a entender o fluxo de trabalho de forma clara e intuitiva (Carregar Dados, Dividir em Treino e Teste, Processar Regras com Apriori, Visualizar Resultados).
+
+- **Gráfico informativo:**   
+Para finalizar é gerado um gráfico de barras empilhadas, o qual fornece uma visão clara da distribuição demográfica, facilitando a identificação de regiões com maior ou menor concentração de profissionais em diferentes faixas.
