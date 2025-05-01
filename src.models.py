@@ -13,7 +13,7 @@ Filtred_filename = list(uploaded_Filtred.keys())[0]
 print(f"\nArquivo '{Filtred_filename}' carregado.")
 
 # Carregar os dados
-df = pd.read_excel('Filtred_Data.xlsx')
+df = pd.read_csv('Filtred_Data.xlsx')
 print(df.head())
 
 # Dataset com regiões e atributos demográficos
