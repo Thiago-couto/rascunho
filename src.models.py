@@ -7,13 +7,14 @@ import numpy as np
 from mlxtend.frequent_patterns import apriori
 from mlxtend.frequent_patterns import association_rules
 
-print("Por favor, faça o upload do arquivo 'Filtred_Data.xlsx':")
+print("Por favor, faça o upload do arquivo 'Filtred_Filename':")
 uploaded_Filtred = files.upload()
 Filtred_filename = list(uploaded_Filtred.keys())[0]
 print(f"\nArquivo '{Filtred_filename}' carregado.")
 
 # Carregar os dados
-df = pd.read_csv('Filtred_Data.xlsx')
+df = pd.read_csv(Filtred_filename)  
+
 print(df.head())
 
 # Dataset com regiões e atributos demográficos
