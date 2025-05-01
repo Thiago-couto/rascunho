@@ -212,6 +212,6 @@ def processar_regras(df_dados):
     `df_transformed = pd.DataFrame(te_ary, columns=te.columns_)`  # Cria DataFrame com os atributos binários           
     `frequent_itemsets = apriori(df_transformed, min_support=0.4, use_colnames=True)`  # Encontra conjuntos frequentes          
     `regras = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)`  # Gera regras com confiança >= 70%       
-    `return regras` #Finaliza      
+    `return regras`     
 - **Fluxo de processamento gráfico:**         
 Foi criado um diagrama simples que mostra as etapas do processo, desde o carregamento dos dados até a visualização dos resultados. Essa visualização ajuda a entender o fluxo de trabalho de forma clara e intuitiva.
