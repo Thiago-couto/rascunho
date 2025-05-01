@@ -3,7 +3,7 @@ import pandas as pd
 from mlxtend.preprocessing import TransactionEncoder
 from mlxtend.frequent_patterns import apriori, association_rules
 
-df = pd.read_excel('Filtred_Data.txt')
+df = pd.read_excel('Filtred_Data.xlsx')
 print(df.head())
 
 # Dataset com regiões e atributos demográficos
