@@ -209,12 +209,12 @@ Trechos do código comentados:
 Aqui, garantimos que 70% dos dados vão para treino e 30% para teste, com uma semente fixa para reprodutibilidade. 
 # Função para processar regras de associação
 def processar_regras(df_dados):
-    `dataset = df_dados.drop('Região', axis=1).values.tolist()  # Remove a coluna Região para focar nos atributos
-    te = TransactionEncoder()  # Cria o encoder para transformar os dados em formato binário
-    te_ary = te.fit(dataset).transform(dataset)  # Aplica o encoder
-    df_transformed = pd.DataFrame(te_ary, columns=te.columns_)  # Cria DataFrame com os atributos binários
-    frequent_itemsets = apriori(df_transformed, min_support=0.4, use_colnames=True)  # Encontra conjuntos frequentes
-    regras = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)  # Gera regras com confiança >= 70%
-    return regras`
+    `dataset = df_dados.drop('Região', axis=1).values.tolist()`  # Remove a coluna Região para focar nos atributos         
+    `te = TransactionEncoder()`  # Cria o encoder para transformar os dados em formato binário           
+    `te_ary = te.fit(dataset).transform(dataset)`  # Aplica o encoder           
+    `df_transformed = pd.DataFrame(te_ary, columns=te.columns_)`  # Cria DataFrame com os atributos binários           
+    `frequent_itemsets = apriori(df_transformed, min_support=0.4, use_colnames=True)`  # Encontra conjuntos frequentes          
+    `regras = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)`  # Gera regras com confiança >= 70%       
+    `return regras` #Finaliza      
 Fluxo de processamento gráfico:
 Foi criado um diagrama simples que mostra as etapas do processo, desde o carregamento dos dados até a visualização dos resultados. Essa visualização ajuda a entender o fluxo de trabalho de forma clara e intuitiva.
