@@ -59,7 +59,7 @@ dataset_demografico = [
     ['Centro-Oeste', 'mais que 55', 'mais que 20.001'],
 ]
 
-df_demografico = pd.DataFrame(dataset_demografico, columns=['Região', 'Faixa salarial', 'Faixa etária'])
+df_demografico = pd.DataFrame(dataset_demografico, columns=['Região', 'Faixa Etária', 'Faixa Salarial'])
 
 # Dividir os dados em treino e teste (por exemplo, 70% treino, 30% teste)
 train_df, test_df = train_test_split(df_demografico, test_size=0.3, random_state=42)
