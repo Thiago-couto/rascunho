@@ -18,9 +18,36 @@ dataset_demografico = [
 # Converter para DataFrame
 df_demografico = pd.DataFrame(dataset_demografico, columns=['Região', 'Renda', 'Idade', 'Zona'])
 
-# Filtrar por região desejada, por exemplo, Sudeste
-regiao_desejada = 'Sudeste'
-df_filtrado = df_demografico[df_demografico['Região'] == regiao_desejada]
+# Lista de regiões presentes no seu dataset
+regioes = df_demografico['Região'].unique()
+
+# Dicionário para armazenar regras por região
+regras_por_regiao = {}
+
+for regiao in regioes:
+    # Filtra os dados pela região atual
+    df_filtrado = df_demografico[df_demografico['Região'] == regiao]
+    
+    # Prepara os dados para o Apriori
+    dataset = df_filtrado.drop('Região', axis=1).values.tolist()
+    
+    # Transforma em matriz binária
+    te = TransactionEncoder()
+    te_ary = te.fit(dataset).transform(dataset)
+    df = pd.DataFrame(te_ary, columns=te.columns_)
+    
+    # Calcula os itemsets frequentes
+    frequent_itemsets = apriori(df, min_support=0.4, use_colnames=True)
+    
+    # Gera as regras de associação
+    rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)
+    
+    # Armazena as regras no dicionário
+    regras_por_regiao[regiao] = rules
+
+# Agora, você pode acessar as regras de cada região pelo dicionário
+for regiao, regras in regras_por_regiao.items():
+    print(f"Regras para a região {regiao}:\n", regras)
 
 # Preparar os dados para o Apriori
 dataset = df_filtrado.drop('Região', axis=1).values.tolist()
