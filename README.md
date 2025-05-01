@@ -185,16 +185,16 @@ Curso de Ciência de Dados por Estado (código)
 
 
 modelo                     
-**- Justificativa da escolha do modelo:**               
+- **Justificativa da escolha do modelo:**               
 Utilizamos o modelo de Associação com algoritmo Apriori para identificar regras de correlação nos dados de densidade demográfica. Essa escolha é excelente para descobrir padrões frequentes e relações entre atributos, como região, renda e faixa de idade, especialmente quando o objetivo é entender combinações comuns ou interessantes nesses atributos.
 
-**- Processo de amostragem de dados:**               
+- **Processo de amostragem de dados:**               
 Foi dividido o dataset em conjuntos de treino e teste usando a função
 `train_test_split`
 do scikit-learn, com uma proporção de 70% para treino e 30% para teste (test_size=0.3). 
 Essa divisão ajuda a validar o modelo, garantindo que as regras geradas não sejam apenas específicas do conjunto de treinamento, mas também se mantenham no conjunto de teste, promovendo uma avaliação mais confiável.
 
-**- Parâmetros utilizados:**            
+- **Parâmetros utilizados:**            
 Para o algoritmo Apriori, foi definido
 `min_support=0.4`
 , ou seja, as regras devem aparecer em pelo menos 40% dos registros para serem consideradas frequentes.
@@ -215,5 +215,5 @@ def processar_regras(df_dados):
     `frequent_itemsets = apriori(df_transformed, min_support=0.4, use_colnames=True)`  # Encontra conjuntos frequentes          
     `regras = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)`  # Gera regras com confiança >= 70%       
     `return regras` #Finaliza      
-**- Fluxo de processamento gráfico:**
+- **Fluxo de processamento gráfico:**
 Foi criado um diagrama simples que mostra as etapas do processo, desde o carregamento dos dados até a visualização dos resultados. Essa visualização ajuda a entender o fluxo de trabalho de forma clara e intuitiva.
