@@ -202,11 +202,11 @@ Para gerar as regras de associação, utilizou-se
 , o que significa que as regras só são consideradas se tiverem uma confiança de pelo menos 70%.
 
 - **Exemplo de saida:**    
-- antecedents: item ou conjunto de itens que aparecem antes na regra.   
-- consequents: item ou conjunto de itens que aparecem após na regra.   
-- support: proporção de registros que contêm ambos os itens.   
-- confidence: probabilidade de o consequente ocorrer dado o antecedente.    
-- lift: indica quanto a regra é mais provável de ocorrer do que se fosse uma ocorrência independente.   
+- antecedents: item ou conjunto de itens que aparecem antes na regra.
+- consequents: item ou conjunto de itens que aparecem após na regra.
+- support: proporção de registros que contêm ambos os itens.
+- confidence: probabilidade de o consequente ocorrer dado o antecedente. 
+- lift: indica quanto a regra é mais provável de ocorrer do que se fosse uma ocorrência independente.
 
 Trechos do código comentados:
 
