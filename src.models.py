@@ -9,7 +9,6 @@ df = pd.read_excel('Filtred_Data.xlsx')
 print(df.head())
 
 # Dataset com regiões e atributos demográficos
-dataset_demografico = [
     dataset_demografico = [
     ['Região', 'Faixa Etária', 'Faixa Salarial'],
     ['Sudeste', '17-21', '0-2.000'],
@@ -92,4 +91,4 @@ ax.axis('off')
 ax.text(0.1, 0.8, 'Carregar Dados', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightblue"))
 ax.text(0.1, 0.6, 'Dividir em Treino/Teste', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightgreen"))
 ax.text(0.1, 0.4, 'Processar Regras\ncom Apriori', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightyellow"))
-ax.text(0.1, 0.2, 'Visualizar Resultados', fontsize=12, bbox
+ax.text(0.1, 0.2, 'Visualizar Resultados', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightcoral"))
