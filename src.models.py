@@ -17,7 +17,7 @@ df = pd.read_excel('Filtred_Data.xlsx')
 print(df.head())
 
 # Dataset com regiões e atributos demográficos
-    dataset_demografico = [
+dataset_demografico = [
     ['Região', 'Faixa Etária', 'Faixa Salarial'],
     ['Sudeste', '17-21', '0-2.000'],
     ['Sudeste', '22-24', '2.001-6.000'],
