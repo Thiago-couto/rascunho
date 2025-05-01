@@ -190,14 +190,12 @@ Utilizamos o modelo de Associação com algoritmo Apriori para identificar regra
 
 - **Processo de amostragem de dados:**               
 Foi dividido o dataset em conjuntos de treino e teste usando a função
-`train_test_split`
-do scikit-learn, com uma proporção de 70% para treino e 30% para teste (test_size=0.3). 
+`train_test_split` do scikit-learn, com uma proporção de 70% para treino e 30% para teste `(test_size=0.3)`. 
 Essa divisão ajuda a validar o modelo, garantindo que as regras geradas não sejam apenas específicas do conjunto de treinamento, mas também se mantenham no conjunto de teste, promovendo uma avaliação mais confiável.
 
 - **Parâmetros utilizados:**            
 Para o algoritmo Apriori, foi definido
-`min_support=0.4`
-, ou seja, as regras devem aparecer em pelo menos 40% dos registros para serem consideradas frequentes.
+`min_support=0.4`, ou seja, as regras devem aparecer em pelo menos 40% dos registros para serem consideradas frequentes.
 Para gerar as regras de associação, utilizou-se
 `confidence=0.7`
 , o que significa que as regras só são consideradas se tiverem uma confiança de pelo menos 70%.
@@ -207,7 +205,7 @@ Trechos do código comentados:
 `train_df`, `test_df = train_test_split(df_demografico, test_size=0.3, random_state=42)`       
 - Aqui, garantimos que 70% dos dados vão para treino e 30% para teste, com uma semente fixa para reprodutibilidade. 
 # Função para processar regras de associação
-def processar_regras(df_dados):
+def processar_regras(df_dados):         
     `dataset = df_dados.drop('Região', axis=1).values.tolist()`  # Remove a coluna Região para focar nos atributos         
     `te = TransactionEncoder()`  # Cria o encoder para transformar os dados em formato binário           
     `te_ary = te.fit(dataset).transform(dataset)`  # Aplica o encoder           
