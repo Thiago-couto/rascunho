@@ -1,10 +1,11 @@
 import pandas as pd
 from google.colab import files
 from mlxtend.preprocessing import TransactionEncoder
-from mlxtend.frequent_patterns import apriori, association_rules
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
-
+import numpy as np
+from mlxtend.frequent_patterns import apriori
+from mlxtend.frequent_patterns import association_rules
 # Carregar os dados
 df = pd.read_excel('Filtred_Data.xlsx')
 print(df.head())
