@@ -92,3 +92,22 @@ ax.text(0.1, 0.8, 'Carregar Dados', fontsize=12, bbox=dict(boxstyle="round,pad=0
 ax.text(0.1, 0.6, 'Dividir em Treino/Teste', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightgreen"))
 ax.text(0.1, 0.4, 'Processar Regras\ncom Apriori', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightyellow"))
 ax.text(0.1, 0.2, 'Visualizar Resultados', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="lightcoral"))
+
+contagem = df_demografico.groupby(['Região', 'Faixa Etária', 'Faixa Salarial']).size().reset_index(name='Quantidade')
+
+# Para facilitar a visualização, podemos criar uma tabela pivot
+pivot_table = contagem.pivot_table(
+    index='Região',
+    columns=['Faixa Etária', 'Faixa Salarial'],
+    values='Quantidade',
+    fill_value=0
+)
+# Plotar o gráfico de barras empilhadas
+pivot_table.plot(kind='bar', stacked=True, figsize=(12,8))
+
+plt.title('Densidade Demográfica de Cientistas de Dados por Região, Faixa Etária e Faixa Salarial')
+plt.xlabel('Região')
+plt.ylabel('Número de Cientistas de Dados')
+plt.legend(title='Faixa Etária / Faixa Salarial', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.tight_layout()
+plt.show()
