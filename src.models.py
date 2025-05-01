@@ -13,7 +13,7 @@ Filtred_filename = list(uploaded_Filtred.keys())[0]
 print(f"\nArquivo '{Filtred_filename}' carregado.")
 
 # Carregar os dados
-df = pd.read_csv(Filtred_filename)  
+df = pd.read_csv(Filtred_filename, encoding='latin-1')  
 
 print(df.head())
 
