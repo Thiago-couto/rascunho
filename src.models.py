@@ -84,7 +84,7 @@ regras_teste = processar_regras(test_df)
 print("Regras de treino:\n", regras_treino)
 print("Regras de teste:\n", regras_teste)
 
-# Resultado, Grafico simples
+# Resumo, Grafico simples de fluxo
 fig, ax = plt.subplots(figsize=(10, 6))
 ax.axis('off')
 
