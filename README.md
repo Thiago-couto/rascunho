@@ -205,8 +205,8 @@ Para gerar as regras de associação, utilizou-se
 Trechos do código comentados:
 
 # Divisão do dataset em treino e teste
-`train_df`, `test_df = train_test_split(df_demografico, test_size=0.3, random_state=42)`
-Aqui, garantimos que 70% dos dados vão para treino e 30% para teste, com uma semente fixa para reprodutibilidade. 
+`train_df`, `test_df = train_test_split(df_demografico, test_size=0.3, random_state=42)`       
+- Aqui, garantimos que 70% dos dados vão para treino e 30% para teste, com uma semente fixa para reprodutibilidade. 
 # Função para processar regras de associação
 def processar_regras(df_dados):
     `dataset = df_dados.drop('Região', axis=1).values.tolist()`  # Remove a coluna Região para focar nos atributos         
