@@ -184,7 +184,8 @@ Curso de Ciência de Dados por Estado (código)
 - PB - 1550460; (1)      
 
 
-modelo                     
+modelo            
+  - **Perguntada Orientada a Dados:** Existem regiões específicas onde certos atributos demográficos como Faixa Etária e Faixa Salarial são mais comuns entre os Cientistas de Dados?       
 - **Justificativa da escolha do modelo:**               
 Utilizamos o modelo de Associação com algoritmo Apriori para identificar regras de correlação nos dados de densidade demográfica. Essa escolha é excelente para descobrir padrões frequentes e relações entre atributos, como região, renda e faixa de idade, especialmente quando o objetivo é entender combinações comuns ou interessantes nesses atributos.
 
