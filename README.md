@@ -215,4 +215,4 @@ def processar_regras(df_dados):
     `regras = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)`  # Gera regras com confiança >= 70%       
     `return regras`     
 - **Fluxo de processamento gráfico:**         
-Foi criado um diagrama simples que mostra as etapas do processo, desde o carregamento dos dados até a visualização dos resultados. Essa visualização ajuda a entender o fluxo de trabalho de forma clara e intuitiva.
+Foi criado um diagrama simples que mostra as etapas do processo, desde o carregamento dos dados até a visualização dos resultados. Essa visualização ajuda a entender o fluxo de trabalho de forma clara e intuitiva (Carregar Dados, Dividir em Treino e Teste, Processar Regras com Apriori, Visualizar Resultados).
