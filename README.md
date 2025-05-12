@@ -17,7 +17,7 @@
 
 - Moda: 
 
-<img src=https://github.com/user-attachments/assets/b1a4698c-c1e0-4fbc-9ede-555dad8b1f9f width="600"/>  
+<img src=https://github.com/user-attachments/assets/1b56c17f-92e2-47af-99c1-276b95ccfeaa width="900"/>  
 
 
 **3- Faixa Salarial**
