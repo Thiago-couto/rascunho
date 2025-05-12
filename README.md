@@ -4,7 +4,8 @@
 
 - Moda: 
 
-![newplot](https://github.com/user-attachments/assets/e80776ab-ad72-4321-8f17-2a61a90d22f9)
+![newplot](https://github.com/user-attachments/assets/1b56c17f-92e2-47af-99c1-276b95ccfeaa)
+
 
 
 - Masculino: 75.1%  
