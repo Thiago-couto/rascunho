@@ -4,7 +4,7 @@
 
 - Moda: 
 
-![newplot](https://github.com/user-attachments/assets/1b56c17f-92e2-47af-99c1-276b95ccfeaa)
+<img src=https://github.com/user-attachments/assets/1b56c17f-92e2-47af-99c1-276b95ccfeaa width="600"/>  
 
 
 
