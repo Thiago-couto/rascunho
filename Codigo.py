@@ -1,5 +1,5 @@
 # Gerando Grafico:  Gênero    
-> import plotly.graph_objects as go     
+import plotly.graph_objects as go     
 Gênero = ['Feminino','Masculino','Outro',"Prefiro não informar"]    
 Quantidade = [687, 2206, 4, 10]   
 cores_marcadores = ["Navy", "IndianRed", "Yellow", "MediumSeaGreen"]   
