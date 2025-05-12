@@ -4,7 +4,7 @@
 
 - Moda: 
 
-<img src=https://github.com/user-attachments/assets/41674eef-491e-49f3-894f-d0d98a24aed8 width="600"/>  
+<img src=https://github.com/user-attachments/assets/f526f24e-a8c1-4601-94d9-6be7970cf27b width="600"/>  
 
 - Masculino: 75.1%  
 - Feminino: 24.5%  
