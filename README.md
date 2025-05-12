@@ -20,30 +20,32 @@
 
 **3- Faixa Salarial**
 
-- Moda: 
+- Moda: 8.001-12.000 (733)
+- Mediana: 
 
-<img src=https://github.com/user-attachments/assets/5756a64d-768c-4888-a291-3a0f3d1601e7 width="600"/>  
+<img src=https://github.com/user-attachments/assets/9c8a4581-f9be-48c3-8785-5aac4c6c3b76 width="900"/>  
 
 
 **4- Nível de experiência**
 
-- Moda: 
+- Moda: 1 a 2 anos (897)
 
-<img src=https://github.com/user-attachments/assets/173c4a9c-6b2b-4e36-9715-72018a2aa83b width="600"/>  
+<img src=https://github.com/user-attachments/assets/fd058b9f-1ad4-4dfd-880e-ccf80b0408fc width="900"/>  
 
-- menos que 1 ano: 9.0%  
-- 1 a 2 anos: 22.9%  
-- 3 a 4 anos: 21.2%  
-- 4 a 5 anos: 15.5%
-- 5 a 6 anos: 15.5%
-- mais que 6 anos: 18.4%  
-- não possui experiência: 13.1%
-- 
+- menos que 1 ano: 9.7%
+- 1 a 2 anos: 30.9%  
+- 3 a 4 anos: 27.1%  
+- 4 a 5 anos: 10.1%
+- 5 a 6 anos: 7.8%
+- 7 a 10 anos: 7.2%
+- mais que 10 anos: 6.81% 
+- não possui experiência: 0.2%
+
 **5- Ciêntista por Estado**
 
-Moda: 
+Moda: São Paulo (SP) - (1126)
 
-<img src=https://github.com/user-attachments/assets/fbf05279-b98e-4beb-8bb3-6792579e70c2 width="600"/> 
+<img src=https://github.com/user-attachments/assets/f9bf37e4-c038-47b5-a761-6032e8e0bb93 width="900"/> 
 
 **6- Raça/Etnia/Cor**
 
