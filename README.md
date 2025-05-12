@@ -13,27 +13,25 @@
 
 **2- Faixa Etária**
 
-- Moda: 25-29 (1084)
-- Média: 30 anos
-- Mediana: 29 anos
-- 1º Quartil (Q1): 26 anos  
-- 3º Quartil (Q3): 34 anos
-- Variância: 84,36
-- Desvio-padrão: 9,19 anos
-
 <img src=https://github.com/user-attachments/assets/1b56c17f-92e2-47af-99c1-276b95ccfeaa width="900"/>  
 
+- Moda: 25-29 (1084)  
+- Média: 30 anos  
+- Mediana: 29 anos  
+- 1º Quartil (Q1): 26 anos    
+- 3º Quartil (Q3): 34 anos  
+- Variância: 84,36   
+- Desvio-padrão: 9,19 anos   
 
 **3- Faixa Salarial**
 
-- Moda: 8.001-12.000 (733)    
-- Média: 8904.71   
-- Mediana: R$7,000.50   
-- 1º Quartil (Q1): R$5,000.50   
-- 3º Quartil (Q3): R$10,000.50
-
 <img src=https://github.com/user-attachments/assets/9c8a4581-f9be-48c3-8785-5aac4c6c3b76 width="900"/>  
 
+- Moda: 8.001-12.000 (733)      
+- Média: 8904.71     
+- Mediana: R$7,000.50     
+- 1º Quartil (Q1): R$5,000.50      
+- 3º Quartil (Q3): R$10,000.50  
 
 **4- Nível de experiência**
 
