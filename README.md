@@ -49,81 +49,87 @@ Moda: São Paulo (SP) - (1126)
 
 **6- Raça/Etnia/Cor**
 
-- Moda: 
+- Moda: Branca (1876)
 
-<img src=https://github.com/user-attachments/assets/5d53a1b2-a41d-481a-8442-32b445b20284 width="600"/>  
+<img src=https://github.com/user-attachments/assets/e7641f7c-0676-4fab-afc7-a802e5ef3575 width="900"/>  
 
-- Branca: 64.4%  
-- Parda: 24.3%  
-- Amarela: 2.8%  
+- Branca: 64.5%  
+- Parda: 24.1%  
+- Amarela: 2.9%  
 - preta: 7.3%  
-- preferiu não informar: 0.6%  
-- outra: 0.3%  
-- Indígena: 0.3%  
+- preferiu não informar: 0.8%  
+- outra: 0.2%  
+- Indígena: 0.2%  
 
 **7- Ciêntistas por Região**
 
-- Moda: 
+- Moda: Sudeste (1772)
 
-<img src=https://github.com/user-attachments/assets/9c5fa378-d068-4267-b030-18a647e4adaf width="600"/>   
+<img src=https://github.com/user-attachments/assets/8bc2cda6-fc01-45a4-9e44-cb7faf61939b width="900"/>   
 
-- Sudeste: 61.3%  
-- Sul: 18.6%  
-- Nordeste: 11.8%  
-- Centro-Oeste: 6.7%  
-- Norte: 1.7%  
+- Sudeste: 61.0%  
+- Sul: 20.0%  
+- Nordeste: 11.2%  
+- Centro-Oeste: 6.3%  
+- Norte: 1.4%  
 
 **8- Nível de Ensino**
 
-- Moda: 
+- Moda: Graduação/Bacharelado (1130)
 
-<img src=https://github.com/user-attachments/assets/2802abf5-f8db-4d37-a969-b571b5b13880 width="600"/>  
+<img src=https://github.com/user-attachments/assets/99583953-cdcb-4eb3-9e12-01f918271ddb width="900"/>  
 
-- Graduação/Bacharelado: 47.2%  
-- Pós-Graduação: 34.5%     
-- Mestrado: 12.3%   
-- Doutorado: 4%  
-- sem graduação: 2%
+- Graduação/Bacharelado: 38.9%  
+- Pós-Graduação: 32.0%     
+- Mestrado: 12.8%   
+- Doutorado ou Phd: 3.9%  
+- Estudante Graduação: 12.5
 - 
 **9- Situação Empresarial**
 
-- Moda: 
+- Moda: Empregado(CLT) - (2326)
 
-<img src=https://github.com/user-attachments/assets/d9927137-4c2e-41e2-a553-c7ad59f6bdf7 width="600"/>  
+<img src=https://github.com/user-attachments/assets/f8ecaa96-2cfc-453d-9ce4-facf7b70fad9 width="900"/>  
 
-- Empregado(CLT): 79.9%  
-- Desempregado: 7.0%  
-- Estagiário: 4.0%  
-- Estudante: 1.9%  
-- Servidor Público: 2.8%  
-- outros: 4.4%  
+- Empregado(CLT): 80.0%  
+- Empregado(CNPJ): 9.0%  
+- Estagiário: 5.8%  
+- Empresa de fora do Brasil: 2.8%  
+- Servidor Público: 1.8%  
+- Freelancer: 0.5%
+- Prefiro não informar: 0.1% 
 
 **10- Cargo**
 
-- Moda: 
+- Moda: Analista de Dados (874)
 
-<img src=https://github.com/user-attachments/assets/b2dc972a-465f-478e-bae8-c1ac21d3b873 width="600"/>  
+<img src=https://github.com/user-attachments/assets/a1c350b1-cf45-4049-9af0-8be13b72ec71 width="900"/>  
 
-- Analista de Dados: 35.4%  
-- Engenheiro de Dados: 16.9%  
-- Ciêntista de Dados: 13.0%  
-- Estatístico: 0.4%  
-- Data Product Manager: 1.5%  
-- outros: 32.8%  
+- Analista de Dados: 30.1%
+- Cientista de Dados: 22.9%  
+- Engenheiro de Dados: 22.4%  
+- Analista de BI: 16.8%
+- Data Product Manager: 2.7%  
+- Engenheiro de machine learning: 2.5%  
+- Estatístico: 0.7%  
+- Analista de Inteligência de Mercado: 1.3%  
+- Administrador de Banco de Dados: 0.6%  
 
 **11- Área de Formação**
 
-- Moda: 
+- Moda: Computação (1231)
 
-<img src=https://github.com/user-attachments/assets/7df55226-0cfb-41c0-bea9-3fcff29d37c9 width="600"/>  
+<img src=https://github.com/user-attachments/assets/d5b26502-484e-4fdd-ab5f-d63730361761 width="900"/>  
 
-- Computação/TI/ Engenharia de software: 40.9%  
-- Economia: 15.4%  
-- Estatística: 7.1%  
-- Marketing: 2.5%  
-- Ciências Biológicas: 2.2%  
-- Ciências Sociais: 1.5%  
-- outros: 30.3%  
+- Computação: 42.3%  
+- Outras Engenharias: 22.7%   
+- Economia: 13.7%     
+- Estatística: 7.9%  
+- Outra opção: 4.8%   
+- Química / Física: 3.0%  
+- Marketing: 1.9%  
+- Ciências Biológicas: 2.0%  
+- Ciências Sociais: 1.6%    
 
 
 Gráficos com 2 variáveis:   
