@@ -2,20 +2,18 @@
 
 **1- Gênero**
 
-- Moda: 
+- Moda: Masculino (2206)
 
-<img src=https://github.com/user-attachments/assets/1b56c17f-92e2-47af-99c1-276b95ccfeaa width="900"/>  
+<img src=https://github.com/user-attachments/assets/9ca5090f-f8a9-464c-920d-839a9f75c360 width="900"/>  
 
-
-
-- Masculino: 75.1%  
-- Feminino: 24.5%  
+- Masculino: 75.9%  
+- Feminino: 23.6%  
 - preferiu não informar: 0.3%  
 - outros: 0.1%  
 
 **2- Faixa Etária**
 
-- Moda: 
+- Moda: 25-29 (1084)
 
 <img src=https://github.com/user-attachments/assets/1b56c17f-92e2-47af-99c1-276b95ccfeaa width="900"/>  
 
