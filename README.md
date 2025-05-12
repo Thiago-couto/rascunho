@@ -6,6 +6,10 @@
 
 <img src=https://github.com/user-attachments/assets/41674eef-491e-49f3-894f-d0d98a24aed8 width="600"/>  
 
+- Masculino: 75.1%  
+- Feminino: 24.5%  
+- preferiu não informar: 0.3%  
+- outros: 0.1%  
 
 **2- Faixa Etária**
 
@@ -27,7 +31,14 @@
 
 <img src=https://github.com/user-attachments/assets/173c4a9c-6b2b-4e36-9715-72018a2aa83b width="600"/>  
 
-
+- menos que 1 ano: 9.0%  
+- 1 a 2 anos: 22.9%  
+- 3 a 4 anos: 21.2%  
+- 4 a 5 anos: 15.5%
+- 5 a 6 anos: 15.5%
+- mais que 6 anos: 18.4%  
+- não possui experiência: 13.1%
+- 
 **5- Ciêntista por Estado**
 
 Moda: 
@@ -40,7 +51,13 @@ Moda:
 
 <img src=https://github.com/user-attachments/assets/5d53a1b2-a41d-481a-8442-32b445b20284 width="600"/>  
 
-
+- Branca: 64.4%  
+- Parda: 24.3%  
+- Amarela: 2.8%  
+- preta: 7.3%  
+- preferiu não informar: 0.6%  
+- outra: 0.3%  
+- Indígena: 0.3%  
 
 **7- Ciêntistas por Região**
 
@@ -48,7 +65,11 @@ Moda:
 
 <img src=https://github.com/user-attachments/assets/9c5fa378-d068-4267-b030-18a647e4adaf width="600"/>   
 
-
+- Sudeste: 61.3%  
+- Sul: 18.6%  
+- Nordeste: 11.8%  
+- Centro-Oeste: 6.7%  
+- Norte: 1.7%  
 
 **8- Nível de Ensino**
 
@@ -56,15 +77,24 @@ Moda:
 
 <img src=https://github.com/user-attachments/assets/2802abf5-f8db-4d37-a969-b571b5b13880 width="600"/>  
 
-
-
+- Graduação/Bacharelado: 47.2%  
+- Pós-Graduação: 34.5%     
+- Mestrado: 12.3%   
+- Doutorado: 4%  
+- sem graduação: 2%
+- 
 **9- Situação Empresarial**
 
 - Moda: 
 
 <img src=https://github.com/user-attachments/assets/d9927137-4c2e-41e2-a553-c7ad59f6bdf7 width="600"/>  
 
-
+- Empregado(CLT): 79.9%  
+- Desempregado: 7.0%  
+- Estagiário: 4.0%  
+- Estudante: 1.9%  
+- Servidor Público: 2.8%  
+- outros: 4.4%  
 
 **10- Cargo**
 
@@ -72,13 +102,26 @@ Moda:
 
 <img src=https://github.com/user-attachments/assets/b2dc972a-465f-478e-bae8-c1ac21d3b873 width="600"/>  
 
-
+- Analista de Dados: 35.4%  
+- Engenheiro de Dados: 16.9%  
+- Ciêntista de Dados: 13.0%  
+- Estatístico: 0.4%  
+- Data Product Manager: 1.5%  
+- outros: 32.8%  
 
 **11- Área de Formação**
 
 - Moda: 
 
 <img src=https://github.com/user-attachments/assets/7df55226-0cfb-41c0-bea9-3fcff29d37c9 width="600"/>  
+
+- Computação/TI/ Engenharia de software: 40.9%  
+- Economia: 15.4%  
+- Estatística: 7.1%  
+- Marketing: 2.5%  
+- Ciências Biológicas: 2.2%  
+- Ciências Sociais: 1.5%  
+- outros: 30.3%  
 
 
 Gráficos com 2 variáveis:   
