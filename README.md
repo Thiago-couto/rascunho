@@ -170,7 +170,7 @@ Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore d
 Modelo 2: Algoritmo
 Repita os passos anteriores para o segundo modelo.
 
-# **Resultados:**   
+# **Resultados**   
 
 - Visualização da matriz de confusão (treino)     
 ![image](https://github.com/user-attachments/assets/eec412cf-1a4d-4c7e-9a07-6bdb414b5bc5)   
@@ -210,11 +210,11 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 | Macro Avg   | 0.68      | 0.70   | 0.68     | 727     |
 | Weighted Avg| 0.68      | 0.68   | 0.68     | 727     |    
 
-Árvore de decisão finalizada:    
+# **Árvore de decisão finalizada**    
 ![image](https://github.com/user-attachments/assets/7f53abc8-3d15-4df8-8a27-e8d4e15c86d4)    
 
 
-# **Interpretação do modelo 1:**    
+# **Interpretação do modelo 1**    
 - A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.   
 - O modelo não apresenta overfitting, devido a diferença entre treino e teste não ser alta (aproximadamente 5%).   
 - Pleno por apresentar um baixo recall, se torna mais díficil de identificar.   
