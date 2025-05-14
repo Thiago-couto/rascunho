@@ -197,7 +197,7 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 
 - Precisão teste
 
-| Classe  | Precision | Recall | F1-Score | Support |
+|         | Precision | Recall | F1-Score | Support |
 |---------|-----------|--------|----------|---------|
 | Júnior  | 0.66      | 0.84   | 0.74     | 171     |
 | Pleno   | 0.62      | 0.55   | 0.58     | 280     |
@@ -205,7 +205,7 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 
 **Acurácia geral:** 0.68
 
-| Média       | Precision | Recall | F1-Score | Support |
+|             | Precision | Recall | F1-Score | Support |
 |-------------|-----------|--------|----------|---------|
 | Macro Avg   | 0.68      | 0.70   | 0.68     | 727     |
 | Weighted Avg| 0.68      | 0.68   | 0.68     | 727     |    
