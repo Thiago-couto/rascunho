@@ -225,7 +225,10 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 **Possíveis Melhoras:**  
 - Ajustes hiperparâmetros (ajudar a diferenciação entre Júnior, Pleno e Sênior).  
 - Observar quais atributos foram mais importantes para escolha dos níveis.
-- Balancear os dados. 
+- Balancear os dados.
+
+**Conclusão:**   
+O modelo é razoável, porém pode ser melhorado. Ele apresenta diversas falhas, principalmente na classificação dos níveis, apresenta acerto maiores no treino do que nos testes, sendo estes aproximados. Logo, com certos ajustes e melhorias, o modelo tende a se tornar equilibrado.
 
 Resultados obtidos com o modelo 2.
 Repita o passo anterior com os resultados do modelo 2.
