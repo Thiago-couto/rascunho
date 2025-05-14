@@ -141,19 +141,19 @@ Moda: São Paulo (SP) - (1126)
 
 Gráficos com 2 variáveis:   
 - Área de Formação / Faixa Salarial   
-<img src=https://github.com/user-attachments/assets/1b401f80-f989-4034-88d3-498519ba16d1 width="600"/>   
+<img src=https://github.com/user-attachments/assets/6bbf7696-bf2f-4089-be72-ab5b760984d7 width="900"/>   
 
 - Idade / Gênero 
-<img src="https://github.com/ICEI-PUC-Minas-PPL-CDIA/ppl-cd-pcd-sist-int-2025-1-grupo7-2025-1/blob/main/docs/imagens/AgeGender.png?raw=true" width="600">  
+<img src=https://github.com/user-attachments/assets/d1451c58-0cb5-483d-bc4d-646ec5b01f07 width="900">  
 
 - Nível de experiência / Cargo atual 
-<img src="https://github.com/ICEI-PUC-Minas-PPL-CDIA/ppl-cd-pcd-sist-int-2025-1-grupo7-2025-1/blob/main/docs/imagens/Graph Experience level by current position.png?raw=true" width="600">  
+<img src=https://github.com/user-attachments/assets/1f8bfe62-e667-463c-9900-281723ec4456 width="900">  
 
 - Faixa Etária/Nível na Empresa  
-<img src=https://github.com/user-attachments/assets/63bf0104-6900-413a-baa5-b695642ccf48 width="600">  
+<img src=https://github.com/user-attachments/assets/0a74d5dc-13f1-4cc2-9992-959ac2ab19d7 width="900">  
 
 - Nível na Empresa/Salário  
-<img src=https://github.com/user-attachments/assets/9ed6c083-8910-4441-b691-d4679999177f width="600">   
+<img src=https://github.com/user-attachments/assets/03aacc34-766c-49c2-afcb-168b67c4d63b width="900">   
 
 - **Gráfico base auxiliar**      
 <img src=https://github.com/user-attachments/assets/08a5812f-1697-481a-add7-38c93b236c07 width="600">     
