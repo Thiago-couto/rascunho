@@ -182,3 +182,82 @@ Repita o passo anterior com os resultados do modelo 2.
 
 Interpretação do modelo 2
 Repita o passo anterior com os parâmetros do modelo 2.
+
+### Modelo 1: Árvore de Decisão 
+
+- **Perguntada Orientada a Dados:**
+  
+Em qual região existem profissionais mais qualificados? (junior, pleno, senior)
+- **Justificativa da escolha do modelo:**
+
+  
+O modelo Árvore de Decisão foi escolhido porque é fácil de entender e utilizar. Ele mostra de forma clara como as decisões são tomadas com base nos dados. Precisa de pouco tratamento dos dados antes de usar e consegue identificar quais informações são mais importantes para o resultado. Também é útil porque lida bem com situações complexas e pode ser ajustado para evitar erros por excesso de aprendizado.
+
+- **Processo de amostragem de dados:**               
+Foi dividido o dataset em conjuntos de treino e teste usando a função
+`train_test_split` do scikit-learn, uma quantidade de dados para treino de 75% e 25% vão para teste`(test_size=0.25)`. 
+
+- **Parâmetros utilizados:**            
+Foi definido test_size=0.25, ou seja, uma quantidade de dados para treino de 75% e 25% vão para teste
+
+- **Exemplo de saida:**    
+- Idade: 
+- faixa salarial: 
+- area da formação: 
+- idade: 
+- UF onde mora:
+- Cor/ raça / etnia
+- Nivel
+
+Trechos do código comentados:
+
+# Divisão do dataset em treino e teste
+`X_treino, X_teste, y_treino, y_teste = train_test_split(df.drop(columns=['Nível']), df['Nível'], test_size=0.25, random_state=42)`       
+- Aqui, garantimos que 75% dos dados vão para treino e 25% para teste, com uma semente fixa para reprodutibilidade.
+
+# Grafico de acerto
+0 = Junior
+1 = Pleno
+2 = Senior
+
+`cm = ConfusionMatrix(modelo)`
+`cm.fit(X_treino, y_treino)`
+`cm.score(X_teste, y_teste)`
+
+- Aqui é feito o gráfico para mostrar os acertos e erros do programa
+
+![17467887836121283290005492835812](https://github.com/user-attachments/assets/168dea1b-6386-4e51-93c9-714ce6851708)
+
+
+### Modelo 2: 
+
+- **Perguntada Orientada a Dados:**
+- **Justificativa da escolha do modelo:**  
+- **Processo de amostragem de dados:**
+
+- **Parâmetros Utilizados:**
+
+- **Trechos de Código Comentados:**
+
+### Resultados obtidos com o modelo 1.
+
+Apresente aqui os resultados obtidos com a indução do modelo 1. 
+Apresente uma matriz de confusão quando pertinente. Apresente as medidas de performance
+apropriadas para o seu problema. 
+Por exemplo, no caso de classificação: precisão, revocação, F-measure, acurácia.
+
+### Interpretação do modelo 1
+
+Apresente os parâmetros do modelo obtido. Tentre mostrar as regras que são utilizadas no
+processo de 'raciocínio' (*reasoning*) do sistema inteligente. Utilize medidas como 
+o *feature importances* para tentar entender quais atributos o modelo se baseia no
+processo de tomada de decisão.
+
+
+### Resultados obtidos com o modelo 2.
+
+Repita o passo anterior com os resultados do modelo 2.
+
+### Interpretação do modelo 2
+
+Repita o passo anterior com os parâmetros do modelo 2.
