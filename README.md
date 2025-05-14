@@ -164,3 +164,21 @@ Curso de Ciência de Dados por Estado (código)
 - CE - 1127861; 1571410 (2)   
 - PB - 1550460; (1)      
 
+Modelo 1: Algoritmo
+Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore de decisão, rede neural, SVM, etc. Justifique a escolha do modelo. Apresente o processo utilizado para amostragem de dados (particionamento, cross-validation). Descreva os parâmetros utilizados. Apresente trechos do código utilizado comentados. Se utilizou alguma ferramenta gráfica, apresente imagens com o fluxo de processamento.
+
+Modelo 2: Algoritmo
+Repita os passos anteriores para o segundo modelo.
+
+Resultados
+Resultados obtidos com o modelo 1.
+Apresente aqui os resultados obtidos com a indução do modelo 1. Apresente uma matriz de confusão quando pertinente. Apresente as medidas de performance apropriadas para o seu problema. Por exemplo, no caso de classificação: precisão, revocação, F-measure, acurácia.
+
+Interpretação do modelo 1
+Apresente os parâmetros do modelo obtido. Tentre mostrar as regras que são utilizadas no processo de 'raciocínio' (reasoning) do sistema inteligente. Utilize medidas como o feature importances para tentar entender quais atributos o modelo se baseia no processo de tomada de decisão.
+
+Resultados obtidos com o modelo 2.
+Repita o passo anterior com os resultados do modelo 2.
+
+Interpretação do modelo 2
+Repita o passo anterior com os parâmetros do modelo 2.
