@@ -182,32 +182,47 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 
 - Precisão treino    
 
-| Classe  | precision | recall | f1-score | support |
-| ------------- | ------------- || ------------- | ------------- | ------------- |
-| Júnior  | 0.71 | 0.84 | 0.77  | 591  |
-| Pleno  | 0.66 | 0.61  | 0.63  | 801  |
-| Sênior  | 0.82  | 0.77  | 0.79  | 788  |     
+| Classe  | Precision | Recall | F1-Score | Support |
+|---------|-----------|--------|----------|---------|
+| Júnior  | 0.71      | 0.84   | 0.77     | 591     |
+| Pleno   | 0.66      | 0.61   | 0.63     | 801     |
+| Sênior  | 0.82      | 0.77   | 0.79     | 788     |    
+
+**Acurácia geral:** 0.73
+
+| Média       | Precision | Recall | F1-Score | Support |
+|-------------|-----------|--------|----------|---------|
+| Macro Avg   | 0.73      | 0.74   | 0.73     | 2180    |
+| Weighted Avg| 0.73      | 0.73   | 0.73     | 2180    |
 
 - Precisão teste
 
-| Classe  | precision | recall | f1-score | support |
-| ------------- | ------------- || ------------- | ------------- | ------------- |
-| Júnior  | 0.66 | 0.84 | 0.74  | 171 |
-| Pleno  | 0.62 | 0.55  | 0.58  | 280  |
-| Sênior  | 0.76  | 0.71  | 0.73  | 276  |    
+| Classe  | Precision | Recall | F1-Score | Support |
+|---------|-----------|--------|----------|---------|
+| Júnior  | 0.66      | 0.84   | 0.74     | 171     |
+| Pleno   | 0.62      | 0.55   | 0.58     | 280     |
+| Sênior  | 0.76      | 0.71   | 0.73     | 276     |  
+
+**Acurácia geral:** 0.68
+
+| Média       | Precision | Recall | F1-Score | Support |
+|-------------|-----------|--------|----------|---------|
+| Macro Avg   | 0.68      | 0.70   | 0.68     | 727     |
+| Weighted Avg| 0.68      | 0.68   | 0.68     | 727     |    
 
 Árvore de decisão finalizada:    
 ![image](https://github.com/user-attachments/assets/7f53abc8-3d15-4df8-8a27-e8d4e15c86d4)    
 
 
 Interpretação do modelo 1   
-- A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.
-- O modelo não apresenta overfitting, devido a diferença entre treino e teste não ser alta (aproximadamente 5%).
-- Pleno por apresentar um baixo recall, se torna mais díficil de identificar.
+- A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.   
+- O modelo não apresenta overfitting, devido a diferença entre treino e teste não ser alta (aproximadamente 5%).   
+- Pleno por apresentar um baixo recall, se torna mais díficil de identificar.   
+- O modelo em sí apresenta 68% de acerto nas classificações de níveis.  
 
 Possiveis Melhoras:
-- Ajustes hiperparametros (ajudar a diferenciação entre Júnior, Pleno e Sênior).
-- Observar quais atributos foram mais importantes para escolha dos níveis.
+- Ajustes hiperparâmetros (ajudar a diferenciação entre Júnior, Pleno e Sênior).  
+- Observar quais atributos foram mais importantes para escolha dos níveis.   
 
 Resultados obtidos com o modelo 2.
 Repita o passo anterior com os resultados do modelo 2.
