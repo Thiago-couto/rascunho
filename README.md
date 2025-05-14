@@ -170,12 +170,44 @@ Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore d
 Modelo 2: Algoritmo
 Repita os passos anteriores para o segundo modelo.
 
-Resultados
-Resultados obtidos com o modelo 1.
-Apresente aqui os resultados obtidos com a indução do modelo 1. Apresente uma matriz de confusão quando pertinente. Apresente as medidas de performance apropriadas para o seu problema. Por exemplo, no caso de classificação: precisão, revocação, F-measure, acurácia.
+Resultados:  
 
-Interpretação do modelo 1
-Apresente os parâmetros do modelo obtido. Tentre mostrar as regras que são utilizadas no processo de 'raciocínio' (reasoning) do sistema inteligente. Utilize medidas como o feature importances para tentar entender quais atributos o modelo se baseia no processo de tomada de decisão.
+- Visualização da matriz de confusão (treino)   
+![image](https://github.com/user-attachments/assets/eec412cf-1a4d-4c7e-9a07-6bdb414b5bc5)
+Treino: 0.7289 -> O modelo acerta aproximadamente 72.9%.  
+
+- Visualização da matriz de confusão (teste)
+![image](https://github.com/user-attachments/assets/bed24ec5-8515-4859-ae8f-c1ca84aa801b)
+Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
+
+- Precisão treino  
+
+| Classe  | precision | recall | f1-score | support |
+| ------------- | ------------- || ------------- | ------------- | ------------- |
+| Júnior  | 0.71 | 0.84 | 0.77  | 591  |
+| Pleno  | 0.66 | 0.61  | 0.63  | 801  |
+| Sênior  | 0.82  | 0.77  | 0.79  | 788  |  
+
+- Precisão teste
+
+| Classe  | precision | recall | f1-score | support |
+| ------------- | ------------- || ------------- | ------------- | ------------- |
+| Júnior  | 0.66 | 0.84 | 0.74  | 171 |
+| Pleno  | 0.62 | 0.55  | 0.58  | 280  |
+| Sênior  | 0.76  | 0.71  | 0.73  | 276  |
+
+Árvore de decisão finalizada:
+![image](https://github.com/user-attachments/assets/7f53abc8-3d15-4df8-8a27-e8d4e15c86d4)
+
+
+Interpretação do modelo 1   
+- A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.
+- O modelo não apresenta overfitting, devido a diferença entre treino e teste não ser alta (aproximadamente 5%).
+- Pleno por apresentar um baixo recall, se torna mais díficil de identificar.
+
+Possiveis Melhoras:
+- Ajustes hiperparametros (ajudar a diferenciação entre Júnior, Pleno e Sênior).
+- Observar quais atributos foram mais importantes para escolha dos níveis.
 
 Resultados obtidos com o modelo 2.
 Repita o passo anterior com os resultados do modelo 2.
