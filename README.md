@@ -170,7 +170,7 @@ Substitua o título pelo nome do algoritmo que será utilizado. P. ex. árvore d
 Modelo 2: Algoritmo
 Repita os passos anteriores para o segundo modelo.
 
-Resultados:  
+# **Resultados:**   
 
 - Visualização da matriz de confusão (treino)     
 ![image](https://github.com/user-attachments/assets/eec412cf-1a4d-4c7e-9a07-6bdb414b5bc5)   
@@ -180,7 +180,7 @@ Treino: 0.7289 -> O modelo acerta aproximadamente 72.9%.
 ![image](https://github.com/user-attachments/assets/bed24ec5-8515-4859-ae8f-c1ca84aa801b)    
 Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.    
 
-- Precisão treino    
+# **Precisão treino**       
 
 | Classe  | Precision | Recall | F1-Score | Support |
 |---------|-----------|--------|----------|---------|
@@ -195,7 +195,7 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 | Macro Avg   | 0.73      | 0.74   | 0.73     | 2180    |
 | Weighted Avg| 0.73      | 0.73   | 0.73     | 2180    |
 
-- Precisão teste
+# **Precisão teste**  
 
 |         | Precision | Recall | F1-Score | Support |
 |---------|-----------|--------|----------|---------|
@@ -214,13 +214,13 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 ![image](https://github.com/user-attachments/assets/7f53abc8-3d15-4df8-8a27-e8d4e15c86d4)    
 
 
-Interpretação do modelo 1   
+# **Interpretação do modelo 1:**    
 - A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.   
 - O modelo não apresenta overfitting, devido a diferença entre treino e teste não ser alta (aproximadamente 5%).   
 - Pleno por apresentar um baixo recall, se torna mais díficil de identificar.   
 - O modelo em sí apresenta 68% de acerto nas classificações de níveis.  
 
-Possiveis Melhoras:
+**Possíveis Melhoras:**  
 - Ajustes hiperparâmetros (ajudar a diferenciação entre Júnior, Pleno e Sênior).  
 - Observar quais atributos foram mais importantes para escolha dos níveis.   
 
