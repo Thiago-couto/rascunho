@@ -216,9 +216,12 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 ![image](https://github.com/user-attachments/assets/7f53abc8-3d15-4df8-8a27-e8d4e15c86d4)    
 
 
-# **Interpretação do modelo 1**    
+# **Interpretação do modelo 1**      
+- O modelo utilizado foi o `DecisionTreeClassifier` para a árvore de decisão.    
+- O modelo primeiramente faz uma limpeza de dados para que os atributos irrelevantes não influenciem na tomada de decisão.
+- O atributo que mais influenciou na tomada de decisão do modelo, foi a Faixa Salarial.
 - A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.   
-- O modelo apresenta overfitting, devido ao fato do treino possuir acurácia maior que o teste, porém pela diferença entre treino e teste não ser alta (aproximadamente 5%), ele apresenta somente um pequeno overfiting.   
+- O modelo apresenta overfitting, devido ao fato do treino possuir acurácia maior que o teste, porém pela diferença entre treino e teste não ser alta (aproximadamente 5%), ele apresenta somente um pequeno overfitting.   
 - Pleno por apresentar um baixo recall, se torna mais díficil de identificar, fator que leva o modelo a confundir Pleno com as outras classes algumas vezes.   
 - O modelo em sí apresenta 68% de acerto nas classificações de níveis.  
 
@@ -230,87 +233,63 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 **Conclusão:**   
 O modelo é razoável, porém pode ser melhorado. Ele apresenta diversas falhas, principalmente na classificação dos níveis, as quais diminuem a porcentagem de acertos. O modelo também apresenta acerto maiores no treino do que nos testes, sendo estes aproximados, indicando um leve overfiting . Logo, com certos ajustes e melhorias, o modelo tende a se tornar equilibrado.
 
-Resultados obtidos com o modelo 2.
-Repita o passo anterior com os resultados do modelo 2.
+# **Resultados obtidos com o modelo 2.**    
+- Visualização da matriz de confusão (treino)     
+![image](https://github.com/user-attachments/assets/2d330b06-3f4d-4af6-a995-6426a42155ba) 
+Treino: 0.8914 -> O modelo acerta aproximadamente 89.1%.     
 
-Interpretação do modelo 2
-Repita o passo anterior com os parâmetros do modelo 2.
+- Visualização da matriz de confusão (teste)    
+![image](https://github.com/user-attachments/assets/96a9cd2c-d187-484e-b5e4-9cf0f1ce6597) 
+Teste: 0.7120 -> O modelo acerta aproximadamente 71.2%.    
 
-### Modelo 1: Árvore de Decisão 
+# **Precisão treino**       
 
-- **Perguntada Orientada a Dados:**
+| Classe  | Precision | Recall | F1-Score | Support |
+|---------|-----------|--------|----------|---------|
+| Júnior  | 0.95      | 0.86   | 0.90     | 534     |
+| Pleno   | 0.83      | 0.90   | 0.86     | 769     |
+| Sênior  | 0.92      | 0.91   | 0.92     | 760     |    
+
+**Acurácia geral:** 0.89 
+
+|             | Precision | Recall | F1-Score | Support |
+|-------------|-----------|--------|----------|---------|
+| Macro Avg   | 0.90      | 0.89   | 0.89     | 2063    |
+| Weighted Avg| 0.89      | 0.89   | 0.89     | 2063    |
+
+# **Precisão teste**  
+
+| Classe  | Precision | Recall | F1-Score | Support |
+|---------|-----------|--------|----------|---------|
+| Júnior  | 0.77      | 0.68   | 0.72     | 228     |
+| Pleno   | 0.61      | 0.67   | 0.64     | 312     |
+| Sênior  | 0.80      | 0.78   | 0.79     | 304     |  
+
+**Acurácia geral:** 0.71 
+
+|             | Precision | Recall | F1-Score | Support |
+|-------------|-----------|--------|----------|---------|
+| Macro Avg   | 0.72      | 0.71   | 0.72     | 844     |
+| Weighted Avg| 0.72      | 0.71   | 0.71     | 844     |    
+
+- O modelo de teste apresentou uma queda na Acurácia, principalmente devido a classe Pleno.  
+
+# **Random Forest finalizada**    
+![download](https://github.com/user-attachments/assets/2bc3dbe9-56b2-4457-8451-12da9e1b2177)   
   
-Em qual região existem profissionais mais qualificados? (junior, pleno, senior)
-- **Justificativa da escolha do modelo:**
 
-  
-O modelo Árvore de Decisão foi escolhido porque é fácil de entender e utilizar. Ele mostra de forma clara como as decisões são tomadas com base nos dados. Precisa de pouco tratamento dos dados antes de usar e consegue identificar quais informações são mais importantes para o resultado. Também é útil porque lida bem com situações complexas e pode ser ajustado para evitar erros por excesso de aprendizado.
+# **Interpretação do modelo 2**    
+- A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.   
+- O modelo apresenta overfitting, devido ao fato do treino possuir acurácia maior que o teste, porém pela diferença entre treino e teste não ser alta (aproximadamente 5%), ele apresenta somente um pequeno overfitting.   
+- Pleno por apresentar um baixo recall, se torna mais díficil de identificar, fator que leva o modelo a confundir Pleno com as outras classes algumas vezes.   
+- O modelo em sí apresenta 68% de acerto nas classificações de níveis.  
 
-- **Processo de amostragem de dados:**               
-Foi dividido o dataset em conjuntos de treino e teste usando a função
-`train_test_split` do scikit-learn, uma quantidade de dados para treino de 75% e 25% vão para teste`(test_size=0.25)`. 
+**Possíveis Melhoras:**  
+- Ajustes hiperparâmetros (ajudar a diferenciação entre Júnior, Pleno e Sênior).  
+- Observar quais atributos foram mais importantes para escolha dos níveis.
+- Balancear os dados.
 
-- **Parâmetros utilizados:**            
-Foi definido test_size=0.25, ou seja, uma quantidade de dados para treino de 75% e 25% vão para teste
-
-- **Exemplo de saida:**    
-- Idade: 
-- faixa salarial: 
-- area da formação: 
-- idade: 
-- UF onde mora:
-- Cor/ raça / etnia
-- Nivel
-
-Trechos do código comentados:
-
-# Divisão do dataset em treino e teste
-`X_treino, X_teste, y_treino, y_teste = train_test_split(df.drop(columns=['Nível']), df['Nível'], test_size=0.25, random_state=42)`       
-- Aqui, garantimos que 75% dos dados vão para treino e 25% para teste, com uma semente fixa para reprodutibilidade.
-
-# Grafico de acerto
-0 = Junior
-1 = Pleno
-2 = Senior
-
-`cm = ConfusionMatrix(modelo)`
-`cm.fit(X_treino, y_treino)`
-`cm.score(X_teste, y_teste)`
-
-- Aqui é feito o gráfico para mostrar os acertos e erros do programa
-
-![17467887836121283290005492835812](https://github.com/user-attachments/assets/168dea1b-6386-4e51-93c9-714ce6851708)
+**Conclusão:**   
+O modelo é razoável, porém pode ser melhorado. Ele apresenta diversas falhas, principalmente na classificação dos níveis, as quais diminuem a porcentagem de acertos. O modelo também apresenta acerto maiores no treino do que nos testes, sendo estes aproximados, indicando um leve overfitting . Logo, com certos ajustes e melhorias, o modelo tende a se tornar equilibrado.
 
 
-### Modelo 2: 
-
-- **Perguntada Orientada a Dados:**
-- **Justificativa da escolha do modelo:**  
-- **Processo de amostragem de dados:**
-
-- **Parâmetros Utilizados:**
-
-- **Trechos de Código Comentados:**
-
-### Resultados obtidos com o modelo 1.
-
-Apresente aqui os resultados obtidos com a indução do modelo 1. 
-Apresente uma matriz de confusão quando pertinente. Apresente as medidas de performance
-apropriadas para o seu problema. 
-Por exemplo, no caso de classificação: precisão, revocação, F-measure, acurácia.
-
-### Interpretação do modelo 1
-
-Apresente os parâmetros do modelo obtido. Tentre mostrar as regras que são utilizadas no
-processo de 'raciocínio' (*reasoning*) do sistema inteligente. Utilize medidas como 
-o *feature importances* para tentar entender quais atributos o modelo se baseia no
-processo de tomada de decisão.
-
-
-### Resultados obtidos com o modelo 2.
-
-Repita o passo anterior com os resultados do modelo 2.
-
-### Interpretação do modelo 2
-
-Repita o passo anterior com os parâmetros do modelo 2.
