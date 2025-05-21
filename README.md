@@ -218,7 +218,7 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 
 # **Interpretação do modelo 1**      
 - O modelo utilizado foi o `DecisionTreeClassifier` para a árvore de decisão.    
-- O modelo primeiramente faz uma limpeza de dados para que os atributos irrelevantes não influenciem na tomada de decisão.
+- O modelo primeiramente faz uma limpeza de dados (dropando atributos) para que os atributos irrelevantes não influenciem na tomada de decisão.
 - O atributo que mais influenciou na tomada de decisão do modelo, foi a Faixa Salarial.
 - A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.   
 - O modelo apresenta overfitting, devido ao fato do treino possuir acurácia maior que o teste, porém pela diferença entre treino e teste não ser alta (aproximadamente 5%), ele apresenta somente um pequeno overfitting.   
