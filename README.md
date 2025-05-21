@@ -217,8 +217,10 @@ Teste: 0.6795 -> O modelo acerta aproximadamente 67.9%.
 
 
 # **Interpretação do modelo 1**      
-- O modelo utilizado foi o `DecisionTreeClassifier` para a árvore de decisão.    
+- O modelo utilizado foi o `DecisionTreeClassifier` para a árvore de decisão.
+- Os parâmetros principais `max_depth=5`, `test_size=0.25`. (Para o ajuste da profundidade da árvore e a separação de 25% dos dados para o conjunto de teste e 75% dos dados para o conjunto de treino).  
 - O modelo primeiramente faz uma limpeza de dados (dropando atributos) para que os atributos irrelevantes não influenciem na tomada de decisão.
+- Em segundo lugar, os dados relevantes foram transformados em numéricos, para a execução da árvore de decisão.
 - O atributo que mais influenciou na tomada de decisão do modelo, foi a Faixa Salarial.
 - A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.   
 - O modelo apresenta overfitting, devido ao fato do treino possuir acurácia maior que o teste, porém pela diferença entre treino e teste não ser alta (aproximadamente 5%), ele apresenta somente um pequeno overfitting.   
@@ -279,17 +281,22 @@ Teste: 0.7120 -> O modelo acerta aproximadamente 71.2%.
   
 
 # **Interpretação do modelo 2**    
-- A partir, da ánalise da precisão de treinos e testes, é possível observar que o modelo é mais adequado para identificar Juniores e Seniores do que Plenos. Essa ánalise se deve a precisão e o desempenho que os níveis obtiveram.   
-- O modelo apresenta overfitting, devido ao fato do treino possuir acurácia maior que o teste, porém pela diferença entre treino e teste não ser alta (aproximadamente 5%), ele apresenta somente um pequeno overfitting.   
-- Pleno por apresentar um baixo recall, se torna mais díficil de identificar, fator que leva o modelo a confundir Pleno com as outras classes algumas vezes.   
-- O modelo em sí apresenta 68% de acerto nas classificações de níveis.  
+- O modelo utilizado foi o `RandomForestClassifier` para a Floresta aleatória.
+- O principal objetivo é a classificação dos níveis (Júnior, Pleno, Sênior), com base em atributos do perfil do indivíduo.
+- Os parâmetros principais `n_estimators=100`, `max_depth=10`, `test_size=0.29` (Para o número de árvores, ajuste da profundidade da árvore e a separação de 29% dos dados para o conjunto de teste e 71% dos dados para o conjunto de treino).  
+- O modelo apresenta uma divisão de dados aleatória para cada árvore de decisão formada, em que cada nó um conjunto aleatório de atributos é testado.   
+- O modelo possui como atributo mais influente para a tomada de decisão, a Idade e o setor no qual o indivíduo trabalha.   
+- O modelo de Random Forest apresenta overfitting, já que a diferença entre treino e teste é alta (aproximadamente 18%).
+- Pleno apresenta uma queda na precisão, demonstrando que o modelo possui dificuldade em acertar e identificar a classe Pleno. 
+- O modelo em sí apresenta 71% de acerto nas classificações de níveis.  
 
 **Possíveis Melhoras:**  
 - Ajustes hiperparâmetros (ajudar a diferenciação entre Júnior, Pleno e Sênior).  
-- Observar quais atributos foram mais importantes para escolha dos níveis.
+- Remover mais atributos que sejam irrelevantes.
+- Reduzir a complexidade do modelo (diminuindo a profundidade de cada árvore)
 - Balancear os dados.
 
 **Conclusão:**   
-O modelo é razoável, porém pode ser melhorado. Ele apresenta diversas falhas, principalmente na classificação dos níveis, as quais diminuem a porcentagem de acertos. O modelo também apresenta acerto maiores no treino do que nos testes, sendo estes aproximados, indicando um leve overfitting . Logo, com certos ajustes e melhorias, o modelo tende a se tornar equilibrado.
+O modelo é razoável porém precisa ser melhorado, ele continua tendo dificuldade na identificação de classes, fator o qual diminui a acurácia geral e compromete no resultado final do modelo. Um dos principais fatores que levam ao desequilibrio do modelo, se deve a quantidade de atributos utilizados. O modelo possui baixa precisão na classe Pleno, fator que precisa ser melhorado. Logo com certas melhorias o modelo tende a se tornar equilibrado para a classificação dos níveis profissionais.
 
 
