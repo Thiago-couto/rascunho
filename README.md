@@ -235,12 +235,12 @@ O modelo é razoável, porém pode ser melhorado. Ele apresenta diversas falhas,
 
 # **Resultados obtidos com o modelo 2.**    
 - Visualização da matriz de confusão (treino)     
-![image](https://github.com/user-attachments/assets/2d330b06-3f4d-4af6-a995-6426a42155ba) 
+![image](https://github.com/user-attachments/assets/2d330b06-3f4d-4af6-a995-6426a42155ba)     
 Treino: 0.8914 -> O modelo acerta aproximadamente 89.1%.     
 
 - Visualização da matriz de confusão (teste)    
-![image](https://github.com/user-attachments/assets/96a9cd2c-d187-484e-b5e4-9cf0f1ce6597) 
-Teste: 0.7120 -> O modelo acerta aproximadamente 71.2%.    
+![image](https://github.com/user-attachments/assets/96a9cd2c-d187-484e-b5e4-9cf0f1ce6597)    
+Teste: 0.7120 -> O modelo acerta aproximadamente 71.2%.     
 
 # **Precisão treino**       
 
@@ -275,7 +275,7 @@ Teste: 0.7120 -> O modelo acerta aproximadamente 71.2%.
 - O modelo de teste apresentou uma queda na Acurácia, principalmente devido a classe Pleno.  
 
 # **Random Forest finalizada**    
-![download](https://github.com/user-attachments/assets/2bc3dbe9-56b2-4457-8451-12da9e1b2177)   
+![download](https://github.com/user-attachments/assets/2bc3dbe9-56b2-4457-8451-12da9e1b2177)    
   
 
 # **Interpretação do modelo 2**    
