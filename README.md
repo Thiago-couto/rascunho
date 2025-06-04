@@ -310,12 +310,8 @@ Foi definido `test_size=0.25` -> uma quantidade de dados para treino de 75% e 25
 `max_depth=5` -> para a profundidade da árvore.
 
 - **Trechos do Código:**  
-
-<details> <summary><strong>🧪 Trecho 1 — Treinamento do modelo</strong></summary>
-python
-Copiar
-Editar
-from sklearn.model_selection import train_test_split
+```python
+`from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
 X_treino, X_teste, y_treino, y_teste = train_test_split(
@@ -325,27 +321,20 @@ X_treino, X_teste, y_treino, y_teste = train_test_split(
 modelo = DecisionTreeClassifier(
     criterion='gini', ccp_alpha=0.006, max_depth=5, random_state=42
 )
-modelo.fit(X_treino, y_treino)
-</details>
-<details> <summary><strong>📊 Trecho 2 — Avaliação do modelo</strong></summary>
-python
-Copiar
-Editar
-from sklearn.metrics import accuracy_score, confusion_matrix
-from yellowbrick.classifier import ConfusionMatrix
+modelo.fit(X_treino, y_treino)`
+```
 
-# Acurácia
-accuracy_score(y_teste, previsoesTeste)
+```python
+`accuracy_score(y_teste, previsoesTeste)
 accuracy_score(y_treino, previsoesTreino)
 
-# Matriz de confusão com Yellowbrick
 cm = ConfusionMatrix(modelo)
 cm.fit(X_treino, y_treino)
 cm.score(X_treino, y_treino)
 
 cm = ConfusionMatrix(modelo)
 cm.fit(X_treino, y_treino)
-cm.score(X_teste, y_teste)
-</details>
+cm.score(X_teste, y_teste)`
+```   
 
 
