@@ -303,3 +303,33 @@ Teste: 0.7120 -> O modelo acerta aproximadamente 71.2%.
 O modelo é razoável porém precisa ser melhorado, ele continua tendo dificuldade na identificação de classes, fator o qual diminui a acurácia geral e compromete no resultado final do modelo. Um dos principais fatores que levam ao desequilibrio do modelo, se deve a quantidade de atributos utilizados. O modelo possui baixa precisão na classe Pleno, fator que precisa ser melhorado. Logo com certas melhorias o modelo tende a se tornar equilibrado para a classificação dos níveis profissionais.
 
 
+- **Parâmetros utilizados:**            
+Foi definido `test_size=0.25` -> uma quantidade de dados para treino de 75% e 25% vão para teste.    
+`modelo.feature_importances_` -> para a avaliação dos atributos de mais importância na tomada de decisão do modelo.  
+`ccp_alpha=0.006` -> controle de overfitting.  
+`max_depth=5` -> para a profundidade da árvore.
+
+- **Trechos do Código:**
+
+```python
+X_treino, X_teste, y_treino, y_teste = train_test_split(
+    df.drop(columns=['Nível']), df['Nível'], test_size=0.25, random_state=42
+)
+
+modelo = DecisionTreeClassifier(
+    criterion='gini', ccp_alpha=0.006, max_depth=5, random_state=42
+)
+modelo.fit(X_treino, y_treino)
+
+accuracy_score(y_teste, previsoesTeste)
+accuracy_score(y_treino, previsoesTreino)
+confusion_matrix(y_teste, previsoesTeste)
+
+cm = ConfusionMatrix(modelo)
+cm.fit(X_treino, y_treino)
+cm.score(X_treino, y_treino)
+
+cm = ConfusionMatrix(modelo)
+cm.fit(X_treino, y_treino)
+cm.score(X_teste, y_teste)
+- Mostra a acurácia e as matrizes de confusão de teste e treino.
