@@ -319,8 +319,9 @@ X_treino, X_teste, y_treino, y_teste = train_test_split(
 modelo = DecisionTreeClassifier(
     criterion='gini', ccp_alpha=0.006, max_depth=5, random_state=42
 )
-modelo.fit(X_treino, y_treino)
+modelo.fit(X_treino, y_treino)```python
 
+```python
 accuracy_score(y_teste, previsoesTeste)
 accuracy_score(y_treino, previsoesTreino)
 confusion_matrix(y_teste, previsoesTeste)
@@ -331,5 +332,6 @@ cm.score(X_treino, y_treino)
 
 cm = ConfusionMatrix(modelo)
 cm.fit(X_treino, y_treino)
-cm.score(X_teste, y_teste)
+cm.score(X_teste, y_teste)```python   
+
 - Mostra a acurácia e as matrizes de confusão de teste e treino.
