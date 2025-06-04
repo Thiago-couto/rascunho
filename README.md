@@ -308,6 +308,7 @@ Foi definido `test_size=0.25` -> uma quantidade de dados para treino de 75% e 25
 `modelo.feature_importances_` -> para a avaliação dos atributos de mais importância na tomada de decisão do modelo.  
 `ccp_alpha=0.006` -> controle de overfitting.  
 `max_depth=5` -> para a profundidade da árvore.
+`n_estimators=20` -> 
 
 - **Trechos do Código:**  
 ```python
