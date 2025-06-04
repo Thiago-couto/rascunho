@@ -335,6 +335,6 @@ cm.score(X_treino, y_treino)
 cm = ConfusionMatrix(modelo)
 cm.fit(X_treino, y_treino)
 cm.score(X_teste, y_teste)`
-```   
-
+```    
+- Mostra a acurácia e as matrizes de confusão de teste e treino.  
 
