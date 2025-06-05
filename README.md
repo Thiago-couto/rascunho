@@ -1,4 +1,4 @@
-
+[Resultados Modelo 1](Update_graphics.ipynb)
 
 **1- Gênero**
 
