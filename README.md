@@ -339,3 +339,5 @@ cm.score(X_teste, y_teste)`
 ```    
 - Mostra a acurácia e as matrizes de confusão de teste e treino.  
 
+![image](https://github.com/user-attachments/assets/1d85deb5-2a78-463b-94c9-697cbe3106b5)
+
