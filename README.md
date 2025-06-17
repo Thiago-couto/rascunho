@@ -341,3 +341,8 @@ cm.score(X_teste, y_teste)`
 
 ![image](https://github.com/user-attachments/assets/1d85deb5-2a78-463b-94c9-697cbe3106b5)
 
+---
+
+_**Resumo**. Este projeto tem como objetivo identificar quais atributos mais qualificam um individuo que trabalha com dados, a partir de uma análise aprofundada do nível profissional, de modo a buscar identificar se este é qualificado ou não na área. O projeto se sucedeu devido a área de dados ser nova no mercado e estar constantemente em movimento, sempre necessitando de novos empregados. Assim, com esse estudo empresas da área poderão ter um ponto de apoio para a escolha dos seus profissionais. Foram escolhidos 2 modelos (Decision Tree/Random Forest), os modelos feitos apresentam algumas falhas, a principal é a dificuldade em identificar a classe pleno, porém com certos ajustes ele tende a se tornar equilibrado._
+
+---
