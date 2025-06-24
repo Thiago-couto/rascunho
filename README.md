@@ -346,3 +346,12 @@ cm.score(X_teste, y_teste)`
 _**Resumo**: Este projeto tem como objetivo identificar quais atributos mais qualificam um indivíduo que trabalha com dados, por meio de uma análise aprofundada do nível profissional, buscando determinar se ele é qualificado ou não na área. O projeto surgiu devido ao fato de a área de dados ser nova no mercado e estar em constante movimentação, sempre necessitando de novos profissionais. Assim, com este estudo, empresas do setor poderão contar com um ponto de apoio para a escolha de seus colaboradores. Foram escolhidos dois modelos (Decision Tree e Random Forest). Esses modelos buscam identificar o nível do profissional na empresa a partir de certos atributos. Embora apresentem algumas falhas — a principal delas sendo a dificuldade em identificar a classe pleno —, com determinados ajustes, tendem a se tornar equilibrados._
 
 ---
+
+
+
+Foram escolhidos dois modelos: Decision Tree e Random Forest. Esses modelos têm como objetivo identificar o nível do profissional na empresa com base em determinados atributos. Embora apresentem algumas limitações — sendo a principal delas a dificuldade em classificar corretamente a categoria pleno —, com ajustes apropriados, os modelos tendem a se tornar mais equilibrados.
+
+O modelo Decision Tree apresentou uma acurácia de 68%, enquanto o Random Forest alcançou 70%. No entanto, este último apresentou overfitting. Possíveis melhorias incluem o ajuste de hiperparâmetros, o balanceamento dos dados e a remoção de atributos menos relevantes.
+
+
+
