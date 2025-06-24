@@ -349,9 +349,9 @@ _**Resumo**: Este projeto tem como objetivo identificar quais atributos mais qua
 
 
 
-Foram escolhidos dois modelos: Decision Tree e Random Forest. Esses modelos têm como objetivo identificar o nível do profissional na empresa com base em determinados atributos. Embora apresentem algumas limitações — sendo a principal delas a dificuldade em classificar corretamente a categoria pleno —, com ajustes apropriados, os modelos tendem a se tornar mais equilibrados.
+_Foram escolhidos dois modelos: Decision Tree e Random Forest. Esses modelos têm como objetivo identificar o nível do profissional na empresa com base em determinados atributos. Embora apresentem algumas limitações — sendo a principal delas a dificuldade em classificar corretamente a categoria pleno —, com ajustes apropriados, os modelos tendem a se tornar mais equilibrados.
 
-O modelo Decision Tree apresentou uma acurácia de 68%, enquanto o Random Forest alcançou 70%. No entanto, este último apresentou overfitting. Possíveis melhorias incluem o ajuste de hiperparâmetros, o balanceamento dos dados e a remoção de atributos menos relevantes.
+O modelo Decision Tree apresentou uma acurácia de 68%, enquanto o Random Forest alcançou 70%. No entanto, este último apresentou overfitting. Possíveis melhorias incluem o ajuste de hiperparâmetros, o balanceamento dos dados e a remoção de atributos menos relevantes._
 
 
 
