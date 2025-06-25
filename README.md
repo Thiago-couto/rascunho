@@ -361,4 +361,8 @@ O modelo Decision Tree apresentou uma acurácia de 68%, enquanto o Random Forest
 
 # REFERÊNCIAS
 
-| 0 = Junior | 1 = Pleno | 2 = Senior |
+| Código | Classe  |
+|--------|---------|
+| 0      | Júnior  |
+| 1      | Pleno   |
+| 2      | Sênior  |
